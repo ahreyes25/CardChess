@@ -1,8 +1,8 @@
 {
-    "id": "28483a2a-a742-4661-8934-9c5498f8a0f1",
+    "id": "8515f1b0-2823-4281-937a-7e34536d8b05",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "deck_draw_card",
+    "name": "player_start_actions",
     "IsCompatibility": false,
     "IsDnD": false
 }

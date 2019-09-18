@@ -24,6 +24,10 @@ deck_size	= 3;
 
 // Other
 can_draw		= false;
-can_play		= false;
 can_move		= false;
 unit_on_mouse	= UNIT.KING;
+card_on_mouse	= undefined;
+
+actions			= undefined;
+execute_action	= false; 
+action_index	= 0;

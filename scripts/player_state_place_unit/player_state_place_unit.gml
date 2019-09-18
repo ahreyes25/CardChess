@@ -1,8 +1,10 @@
-/// @param piece_enum
+/// @param unit_enum
 
-var _piece = argument0;
+var _unit = argument0;
 
-unit_on_mouse = _piece;
+unit_on_mouse = _unit;
+can_draw = false;
+can_move = false;
 
 // Place King
 if (mouse_check_button_pressed(mb_left)) {
@@ -21,10 +23,10 @@ if (mouse_check_button_pressed(mb_left)) {
 				unit_on_mouse = undefined;
 		
 				var _world_coords = board_to_world(_u, _v, true);
-				var _unit = unit_create(UNIT.KING, team, _world_coords[_.X], _world_coords[_.Y], board, true);
+				var _unit = unit_create(_unit, team, _world_coords[_.X], _world_coords[_.Y], board, true);
 		
 				state = player_state_idle;		
-					
+				player_next_action();
 		}
 	}
 }
