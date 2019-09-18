@@ -21,4 +21,7 @@ _card.state = card_state_idle;
 
 ds_list_add(_hand, _card);
 
+_player.hand_size++;
+_player.deck_size--;
+
 return _card_id;

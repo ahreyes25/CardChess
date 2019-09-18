@@ -1,0 +1,30 @@
+/// @param piece_enum
+
+var _piece = argument0;
+
+unit_on_mouse = _piece;
+
+// Place King
+if (mouse_check_button_pressed(mb_left)) {
+	
+	var _board_coords = world_to_board(mouse_x, mouse_y, board);
+	var _u = _board_coords[_.X];
+	var _v = _board_coords[_.Y];
+	
+	// In Bounds And Nothing Already Stored There
+	if (in_bounds(board.grid, _u, _v) && board.grid[# _u, _v] == 0) {
+		
+		// Check That Space Is Withing Spawn Zone
+		if ((team == TEAM.WHITE && _v < board.grid_height && _v >= board.grid_height - board.spawn_size) ||
+			(team == TEAM.BLUE && _v >= 0 && _v < board.spawn_size)) {
+					
+				unit_on_mouse = undefined;
+		
+				var _world_coords = board_to_world(_u, _v, true);
+				var _unit = unit_create(UNIT.KING, team, _world_coords[_.X], _world_coords[_.Y], board, true);
+		
+				state = player_state_idle;		
+					
+		}
+	}
+}

@@ -11,6 +11,6 @@ if (ds_exists(_card.player.hand, ds_type_list)) {
 	var _index			= ds_list_find_index(_card.player.hand, _card);	
 	var _card_width		= _card.sprite_width * sign(_card.image_xscale);
 	var _card_offset	= (_card_width + _space_between_cards) * _index;
-	var _hand_offset	= _card_width * (ds_list_size(_card.player.hand) - 1) / 2;
+	var _hand_offset	= _card_width * (_card.player.hand_size - 1) / 2;
 	_card.x				= player.hand_x + _card_offset - _hand_offset;	
 }

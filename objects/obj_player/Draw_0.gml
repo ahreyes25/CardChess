@@ -7,7 +7,7 @@ draw_sprite(spr_card_icon, 0, x + 150, y - 15);
 draw_set_halign(fa_center);
 draw_set_valign(fa_center);
 draw_set_color(c_black);
-draw_text_transformed(x + 150, y - 15, ds_list_size(deck), 0.5, 0.5, 0);
+draw_text_transformed(x + 150, y - 15, deck_size, 0.5, 0.5, 0);
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 draw_set_color(c_white);

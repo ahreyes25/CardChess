@@ -115,6 +115,25 @@
             }
         },
         {
+            "Key": "083266e8-a748-4edc-84ae-c63f404c57a0",
+            "Value": {
+                "id": "178cb807-d00e-4d12-980a-0d97d218f6cb",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/card_hand_scale\/card_hand_scale.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "12a1d47f-d640-46b0-88a2-10c203395344",
             "Value": {
                 "id": "8e5b5299-d05d-4721-9f05-9d7a206b3432",
@@ -1725,7 +1744,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "scripts\/player_state_place_king\/player_state_place_king.yy",
+                "resourcePath": "scripts\/player_state_place_unit\/player_state_place_unit.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1863,6 +1882,25 @@
             }
         },
         {
+            "Key": "f7b2bda0-2a22-4a38-9706-a241097082c7",
+            "Value": {
+                "id": "b710576b-f20a-4b14-86ba-6067bd46feda",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/f7b2bda0-2a22-4a38-9706-a241097082c7.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "f918ced3-829c-4bb8-a398-4856bce38b32",
             "Value": {
                 "id": "fc2ec9e9-d40d-4ccc-b2ff-3977687245a0",
@@ -1931,7 +1969,8 @@
         "8690a16c-90c9-4596-9b71-4b42a59acd3f",
         "868bac5a-a0da-447d-84ce-1f81cea87671",
         "27e22a50-ef5a-4228-ac58-79281a088659",
-        "4bb83ed5-5cdb-4e98-861a-b5fee0876113"
+        "4bb83ed5-5cdb-4e98-861a-b5fee0876113",
+        "083266e8-a748-4edc-84ae-c63f404c57a0"
     ],
     "tutorial": ""
 }

@@ -9,4 +9,4 @@ var _v		= argument2;
 if (!ds_exists(_board, ds_type_grid)) return;
 if (!instance_exists(_unit)) return;
 
-return _board.grid[# _u, _v] = undefined;
+return _board.grid[# _u, _v] = 0;

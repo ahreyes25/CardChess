@@ -1,14 +1,9 @@
-- store data in grid
 - move unit
-
-- hand of cards
-- draw card
 - play card
 - spawn unit
 - setup spawn zones
-
 - attack 
 - defeat unit
 
-- optimize card hand scripts
-- replace references to ds_list_size and manually track sizes
+- card transition from deck to hand smoothly
+- replace all direct references to controllers to references through game_controller

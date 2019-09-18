@@ -6,19 +6,20 @@ else
 	var _card = id;
 	
 // Constants
-var _y_offset = 5;
+var _non_rotated_y_offset = 5;
+var _rotated_y_offset = 10;
 var _rot_factor = 10;
 
 var _opposite = _card.player.hand_x - _card.x;
 if (abs(_opposite) > 25) {
 	
-	var dist = abs(_card.player.hand_x - _card.x) / (_card.sprite_width * sign(_card.image_xscale));
-	_card.y = _card.player.hand_y + (dist * _y_offset);
+	var _dist = abs(_card.player.hand_x - _card.x) / (_card.sprite_width * sign(_card.image_xscale));
+	_card.y = _card.player.hand_y + (_dist * _rotated_y_offset);
 
 	var adjacent = abs(_card.player.hand_y - _card.y);
-	_card.image_angle = arctan(_opposite / adjacent) * _rot_factor * dist;
+	_card.image_angle = arctan(_opposite / adjacent) * _rot_factor * _dist;
 }
 else {
 	_card.image_angle = 0;
-	_card.y = player.hand_y + _y_offset;
+	_card.y = player.hand_y + _non_rotated_y_offset;
 }
