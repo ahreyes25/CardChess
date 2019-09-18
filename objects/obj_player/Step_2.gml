@@ -14,4 +14,3 @@ data[? "x"]					= x;
 data[? "y"]					= y;
 data[? "actions"]			= actions;
 data[? "execute_action"]	= execute_action;
-data[? "action_index"]		= action_index;

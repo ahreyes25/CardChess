@@ -9,11 +9,7 @@ else
 if (!instance_exists(_player)) return undefined;
 #endregion
 
-if (_player.actions != undefined && _player.action_index < array_length_1d(_player.actions) - 1) {
-	_player.action_index++;
+if (ds_queue_size(_player.actions) > 0)
 	_player.execute_action = true;
-}
-else {
-	_player.actions = undefined;
+else 
 	_player.execute_action = false;
-}

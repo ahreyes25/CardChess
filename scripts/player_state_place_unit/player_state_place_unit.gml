@@ -26,7 +26,7 @@ if (mouse_check_button_pressed(mb_left)) {
 				var _unit = unit_create(_unit, team, _world_coords[_.X], _world_coords[_.Y], board, true);
 		
 				state = player_state_idle;		
-				player_next_action();
+				player_action_start_next();
 		}
 	}
 }

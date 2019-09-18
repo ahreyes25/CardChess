@@ -1,10 +1,7 @@
 - move unit
-- spawn unit
 - attack 
 - defeat unit
 
 - card transition from deck to hand smoothly
 - replace all direct references to controllers to references through game_controller
-- have first action complete before next action starts
-- replace action array with action q
-- remove units from board after moving them
+- remove unit data from board after moving them

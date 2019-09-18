@@ -28,6 +28,6 @@ can_move		= false;
 unit_on_mouse	= UNIT.KING;
 card_on_mouse	= undefined;
 
-actions			= undefined;
+// Action Q
+actions			= ds_queue_create();
 execute_action	= false; 
-action_index	= 0;

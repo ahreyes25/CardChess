@@ -44,6 +44,6 @@ if (_player_from.deck_size > 0) {
 		ds_list_add(_player_from.discard, _card_id);
 }
 	
-player_next_action(_player_to);
+player_action_start_next(_player_to);
 
 return _card_id;

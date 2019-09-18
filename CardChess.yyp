@@ -490,7 +490,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "scripts\/player_next_action\/player_next_action.yy",
+                "resourcePath": "scripts\/player_action_start_next\/player_action_start_next.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1195,25 +1195,6 @@
                 ],
                 "resourcePath": "options\/ios\/options_ios.yy",
                 "resourceType": "GMiOSOptions"
-            }
-        },
-        {
-            "Key": "8515f1b0-2823-4281-937a-7e34536d8b05",
-            "Value": {
-                "id": "6f5a9fb6-8bd2-4fa7-88f5-bae43e42ce22",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "scripts\/player_start_actions\/player_start_actions.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -2110,7 +2091,6 @@
         "e075c8e4-8e8a-4b76-b660-353835d3bb2c",
         "1ccd1e1a-4401-4167-96e7-9197fff4443e",
         "308a6c60-bc4c-4e58-9340-6968630bcd00",
-        "8515f1b0-2823-4281-937a-7e34536d8b05",
         "63762512-4218-415a-aee3-6f72de5a15cf",
         "79d36a43-7bca-4c9a-a243-17c421efe15f",
         "ee6c11a4-acbd-4c02-a8b5-dd4adb50e721",

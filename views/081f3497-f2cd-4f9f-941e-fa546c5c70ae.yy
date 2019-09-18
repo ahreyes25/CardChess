@@ -6,8 +6,7 @@
     "children": [
         "1cdec522-f8ca-4ea6-be2a-ac7993b179b2",
         "1ccd1e1a-4401-4167-96e7-9197fff4443e",
-        "308a6c60-bc4c-4e58-9340-6968630bcd00",
-        "8515f1b0-2823-4281-937a-7e34536d8b05"
+        "308a6c60-bc4c-4e58-9340-6968630bcd00"
     ],
     "filterType": "GMScript",
     "folderName": "Player Scripts",
