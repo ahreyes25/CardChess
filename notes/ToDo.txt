@@ -1,7 +1,12 @@
+- move spawn size prop to player object
+- store units created in list ds
 - move unit
+- upgrade unit
 - attack 
 - defeat unit
+- enchant unit
 
-- card transition from deck to hand smoothly
 - replace all direct references to controllers to references through game_controller
 - remove unit data from board after moving them
+- setup simple save state before networking
+- networking

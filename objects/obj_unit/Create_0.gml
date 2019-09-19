@@ -1,15 +1,15 @@
-data				= ds_map_create();
-unit				= undefined;
-team				= undefined;
-player				= undefined;
-board				= undefined;
-attack				= undefined;
-life				= undefined;
-board_u				= undefined;
-board_v				= undefined;
-board_u_previous	= undefined;
-board_v_previous	= undefined;
-target_x			= undefined;
-target_y			= undefined;
-dir_moving			= undefined;
-state				= unit_state_idle;
+data = ds_map_create();
+
+// Serialized Data
+unit		= undefined;
+team		= undefined;
+player		= undefined;
+board		= undefined;
+attack		= undefined;
+life		= undefined;
+board_u		= undefined;
+board_v		= undefined;
+dir_moving	= undefined;
+state		= unit_state_idle;
+
+// Non-Serialized Data

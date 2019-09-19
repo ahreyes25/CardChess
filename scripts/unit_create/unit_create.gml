@@ -20,8 +20,6 @@ _unit_instance.life			= global.unit_data[_unit, UP.LIFE];
 _unit_instance.sprite_index	= global.unit_data[_unit, UP.SPRITE];
 _unit_instance.image_index	= _team;
 _unit_instance.image_speed	= 0;
-_unit_instance.target_x		= _x;
-_unit_instance.target_y		= _y;
 _unit_instance.state		= unit_state_idle;
 _unit_instance.board		= _board;
 

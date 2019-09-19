@@ -2,16 +2,17 @@
 data[? "pid"]				= pid;
 data[? "team"]				= team;
 data[? "board"]				= board;
-data[? "units"]				= units;
-data[? "deck"]				= deck;
-data[? "deck_limit"]		= deck_limit;
-data[? "deck_size"]			= deck_size;
-data[? "discard"]			= discard;
-data[? "hand"]				= hand;
-data[? "hand_size"]			= hand_size;
 data[? "state"]				= state;
-data[? "x"]					= x;
-data[? "y"]					= y;
+
+data[? "deck"]				= deck;
+data[? "hand"]				= hand;
+data[? "discard"]			= discard;
+data[? "units"]				= units;
 data[? "actions"]			= actions;
+
+data[? "hand_limit"]		= hand_limit;
+data[? "hand_size"]			= hand_size;
+data[? "deck_size"]			= deck_size;
+data[? "unit_on_mouse"]		= unit_on_mouse;
+data[? "card_on_mouse"]		= card_on_mouse;
 data[? "execute_action"]	= execute_action;
-data[? "board_units"]		= board_units;

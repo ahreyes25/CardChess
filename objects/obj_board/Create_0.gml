@@ -1,7 +1,11 @@
-data				= ds_map_create();
+data = ds_map_create();
+
+// Serialized Data
 grid_width			= 5;
 grid_height			= 5;
 grid				= ds_grid_create(grid_width, grid_height);
+
+// Non-Serialized Data
 board_sprite		= spr_board;
 board_edge_sprite	= spr_board_edge;
 space_width			= 16;

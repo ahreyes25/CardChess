@@ -23,3 +23,4 @@ global.save_objects			= [obj_game_controller, obj_turn_controller, obj_board, ob
 
 // Game Properties
 global.starting_hand_size	= 3;
+global.deck_limit			= 30;
