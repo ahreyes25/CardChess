@@ -15,8 +15,8 @@ if (mouse_check_button_pressed(mb_left)) {
 	if (in_bounds(board.grid, _u, _v) && board.grid[# _u, _v] == 0) {
 		
 		// Check That Space Is Withing Spawn Zone
-		if ((team == TEAM.WHITE && _v < board.grid_height && _v >= board.grid_height - board.spawn_size) ||
-			(team == TEAM.BLUE && _v >= 0 && _v < board.spawn_size)) {
+		if ((team == TEAM.WHITE && _v < board.grid_height && _v >= board.grid_height - spawn_size) ||
+			(team == TEAM.BLUE && _v >= 0 && _v < spawn_size)) {
 					
 				unit_on_mouse = undefined;
 		

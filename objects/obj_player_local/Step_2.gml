@@ -16,3 +16,4 @@ data[? "deck_size"]			= deck_size;
 data[? "unit_on_mouse"]		= unit_on_mouse;
 data[? "card_on_mouse"]		= card_on_mouse;
 data[? "execute_action"]	= execute_action;
+data[? "spawn_size"]		= spawn_size;

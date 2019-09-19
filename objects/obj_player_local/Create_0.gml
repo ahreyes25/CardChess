@@ -18,6 +18,7 @@ deck_size		= global.deck_limit;
 unit_on_mouse	= undefined;
 card_on_mouse	= undefined;
 execute_action	= false; 
+spawn_size		= global.default_spawn_size;
 
 // Non-Serialized Data
 hand_x			= x;

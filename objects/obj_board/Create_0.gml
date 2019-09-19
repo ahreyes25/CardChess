@@ -10,7 +10,6 @@ board_sprite		= spr_board;
 board_edge_sprite	= spr_board_edge;
 space_width			= 16;
 space_height		= 16;
-spawn_size			= 2;
 
 // Center Board In Room
 x = (room_width  / 2) - (grid_width  * space_width)  / 2;

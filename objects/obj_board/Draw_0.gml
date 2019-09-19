@@ -22,7 +22,7 @@ if (instance_exists(obj_turn_controller) && obj_turn_controller.current_team_tur
 	
 		for (var i = 0; i < grid_width; i++) {
 			for (var j = grid_height - 1; j >= 0; j--) {
-				if (j >= grid_height - spawn_size && grid[# i, j] == 0)
+				if (j >= grid_height - obj_game_controller.player_local.spawn_size && grid[# i, j] == 0)
 					draw_sprite_ext(spr_valid, 0, x + (i * space_width), y + (j * space_height), 1, 1, 0, c_white, 0.5);
 				else
 					draw_sprite_ext(spr_invalid, 0, x + (i * space_width), y + (j * space_height), 1, 1, 0, c_white, 0.5);

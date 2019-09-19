@@ -1,4 +1,3 @@
-- move spawn size prop to player object
 - store units created in list ds
 - move unit
 - upgrade unit
