@@ -20,7 +20,7 @@ if (mouse_check_button_pressed(mb_left)) {
 				unit_on_mouse = undefined;
 		
 				var _world_coords = board_to_world(_u, _v, true);
-				var _unit = unit_create(_unit, team, _world_coords[_.X], _world_coords[_.Y], board);
+				var _unit = unit_create(_unit, team, _world_coords[_.X], _world_coords[_.Y], board, id);
 				ds_list_add(units, _unit);
 		
 				if (team_get_current() == team)

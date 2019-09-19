@@ -7,6 +7,7 @@ else
 	
 if (!instance_exists(_obj)) return;
 
+/*
 var _scaled_width	= sprite_get_width(_obj.sprite_index)  * _obj.image_xscale;
 var _scaled_height	= sprite_get_height(_obj.sprite_index) * _obj.image_yscale;
 var _padding		= 0;
@@ -17,8 +18,8 @@ return (
 	mouse_y >= _obj.y - _scaled_height / 2 + _padding && 
 	mouse_y <= _obj.y + _scaled_height / 2 - _padding
 );
+*/
 
-/*
 return (position_meeting(mouse_x, mouse_y, _obj));
 
 /*

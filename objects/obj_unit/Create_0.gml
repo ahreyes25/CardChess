@@ -13,3 +13,4 @@ dir_moving	= undefined;
 state		= unit_state_idle;
 
 // Non-Serialized Data
+alpha		= 1;

@@ -28,3 +28,4 @@ deck_y			= y - 15;
 info_x			= x - 155;
 info_y			= y - 10;
 info_string		= undefined;
+unit_touching	= undefined;

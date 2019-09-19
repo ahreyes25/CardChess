@@ -3,12 +3,14 @@
 /// @param x
 /// @param y
 /// @param board_inst
+/// @param player
 
 var _unit	= argument0;
 var _team	= argument1;
 var _x		= argument2;
 var _y		= argument3;
 var _board	= argument4;
+var _player	= argument5;
 
 var _unit_instance			= instance_create_layer(_x, _y, "Units", obj_unit);
 _unit_instance.unit			= _unit;
@@ -20,6 +22,7 @@ _unit_instance.image_index	= _team;
 _unit_instance.image_speed	= 0;
 _unit_instance.state		= unit_state_idle;
 _unit_instance.board		= _board;
+_unit_instance.player		= _player;
 
 // Set Movement Direction
 if (_team == TEAM.WHITE)
