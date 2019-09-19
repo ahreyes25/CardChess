@@ -21,7 +21,6 @@ if (room == rm_game) {
 	// Create Remote Player
 	if (!instance_exists(obj_player_local)) {
 		player_local		= instance_create_layer(room_width / 2, (room_height / 2) + (obj_game_controller.camera.height_current / 2), "Controllers", obj_player_local);
-		player_local.pid	= PLAYER.P1;
 		player_local.team	= TEAM.WHITE;
 		player_local.board	= board;
 	}

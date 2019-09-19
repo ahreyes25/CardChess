@@ -1,5 +1,4 @@
 // Save Data
-data[? "pid"]				= pid;
 data[? "team"]				= team;
 data[? "board"]				= board;
 data[? "state"]				= state;

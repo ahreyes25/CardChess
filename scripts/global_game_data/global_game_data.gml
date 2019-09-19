@@ -7,10 +7,6 @@ enum DIR {
 	LEFT, RIGHT, UP, DOWN	
 }
 
-enum PLAYER {
-	P1, P2	
-}
-
 enum TEAM {
 	WHITE, BLUE	
 }

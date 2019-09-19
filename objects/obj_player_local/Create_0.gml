@@ -1,7 +1,6 @@
 data = ds_map_create();
 
 // Serialized Data
-pid				= undefined;
 team			= undefined;
 board			= undefined;
 state			= undefined;
@@ -22,7 +21,7 @@ spawn_size		= global.default_spawn_size;
 
 // Non-Serialized Data
 hand_x			= x;
-hand_y			= y - 50;
+hand_y			= y - 40;
 deck_limit		= global.deck_limit;
 deck_x			= x + 150;
 deck_y			= y - 15;
