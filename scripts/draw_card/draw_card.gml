@@ -31,8 +31,8 @@ if (_player_from.deck_size > 0) {
 	_player_from.deck_size--;
 
 	// Create Card Instance
-	var _card	= card_create(_card_id, _player_to, _player_to.hand_x, _player_to.hand_y);
-	_card.state = card_state_idle;
+	var _card	= card_create(_card_id, _player_to, _player_to.deck_x, _player_to.deck_y);
+	_card.state = card_state_smooth_draw;
 
 	// Add Card To Hand If Space
 	if (_player_to.hand_size < _player_to.hand_limit) {

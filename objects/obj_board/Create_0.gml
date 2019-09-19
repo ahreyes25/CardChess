@@ -1,6 +1,6 @@
 data				= ds_map_create();
-grid_width			= 4;
-grid_height			= 4;
+grid_width			= 5;
+grid_height			= 5;
 grid				= ds_grid_create(grid_width, grid_height);
 board_sprite		= spr_board;
 board_edge_sprite	= spr_board_edge;

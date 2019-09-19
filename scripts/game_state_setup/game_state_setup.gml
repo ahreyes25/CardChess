@@ -1,16 +1,16 @@
 // TO DO : Repeat All For Player2
 
 // Players Loaded & Created 
-if (player1 != undefined) {	
+if (player_local != undefined) {	
 	
 	// Set Player to Start
-	player1.state = player_state_setup;
+	player_local.state = player_state_setup;
 	
 	// Player Hand Drawn and Ready To Start
-	if (player1.hand_size == global.starting_hand_size) {
-		player1.state = player_state_place_unit;
-		player1.unit_on_mouse = UNIT.KING;
+	if (player_local.hand_size == global.starting_hand_size) {
 		
-		state = game_state_idle;
+		player_local.state			= player_state_place_unit;
+		player_local.unit_on_mouse	= UNIT.KING;
+		state						= game_state_idle;
 	}
 }

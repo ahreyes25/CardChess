@@ -6,9 +6,9 @@ else
 	var _card = id;
 	
 // Constants
-var _non_rotated_y_offset = 5;
-var _rotated_y_offset = 10;
-var _rot_factor = 10;
+var _non_rotated_y_offset = -20;
+var _rotated_y_offset = 20;
+var _rot_factor = 5;
 
 var _opposite = _card.player.hand_x - _card.x;
 if (abs(_opposite) > 25) {

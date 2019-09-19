@@ -15,15 +15,15 @@ if (room == rm_game) {
 	if (!instance_exists(obj_board))
 		board = instance_create_layer(0, 0, "Board", obj_board);
 		
-	if (!instance_exists(obj_player)) {
-		player1			= instance_create_layer(room_width / 2, (room_height / 2) + (obj_game_controller.camera.height_current / 2), "Controllers", obj_player);
-		player1.pid		= PLAYER.P1;
-		player1.team	= TEAM.WHITE;
-		player1.board	= board;
+	if (!instance_exists(obj_player_local)) {
+		player_local		= instance_create_layer(room_width / 2, (room_height / 2) + (obj_game_controller.camera.height_current / 2), "Controllers", obj_player_local);
+		player_local.pid	= PLAYER.P1;
+		player_local.team	= TEAM.WHITE;
+		player_local.board	= board;
 	}
 		
-	//if (!instance_exists(obj_player)) {
-	//	player2			= instance_create_layer(room_width / 2, (room_height / 2) - (obj_game_controller.camera.height_current / 2), "Controllers", obj_player);
+	//if (!instance_exists(obj_player_local)) {
+	//	player2			= instance_create_layer(room_width / 2, (room_height / 2) - (obj_game_controller.camera.height_current / 2), "Controllers", obj_player_local);
 	//	player2.pid		= PLAYER.P2;
 	//	player2.team	= TEAM.BLUE;
 	//	player2.board	= board;

@@ -5,6 +5,8 @@ if (mouse_touching()) {
 	depth -= 1;
 	y = player.hand_y - (sprite_width * sign(image_yscale) * 0.25);
 	image_angle = 0;
+	
+	player.info_string = global.card_data[card_id, CP.INFO];
 }
 else {
 	card_hand_center();

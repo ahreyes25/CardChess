@@ -7,8 +7,8 @@ camera				= undefined;
 turn_controller		= undefined;
 network_controller	= undefined;
 board				= undefined;
-player1				= undefined;
-player2				= undefined;
+player_local		= undefined;
+player_remote		= undefined;
 cursor				= undefined;
 
 room_goto_next();

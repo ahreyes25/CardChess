@@ -8,7 +8,7 @@
         "fed10d3f-4cd4-46e9-b482-3d9af116db90"
     ],
     "filterType": "GMScript",
-    "folderName": "Card Action Scripts",
+    "folderName": "Action Scripts",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
