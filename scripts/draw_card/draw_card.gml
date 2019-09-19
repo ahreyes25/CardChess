@@ -7,7 +7,7 @@ if (argument_count == 2) {
 }
 else if (argument_count == 1) {
 	var _player_from	= argument[0];
-	var _player_to		= id;
+	var _player_to		= _player_from;
 }
 else {
 	var _player_from	= id;
@@ -17,11 +17,11 @@ else {
 #region Exit Conditions
 if (!instance_exists(_player_from)) return undefined;
 if (!instance_exists(_player_to))	return undefined;
-#endregion
-
 if (_player_from.deck != undefined && !ds_exists(_player_from.deck, ds_type_list)) return undefined;
 if (_player_to.hand != undefined && !ds_exists(_player_to.hand, ds_type_list)) return undefined;
+#endregion
 
+#region Draw Card And Place In Correct Spot
 var _card_id = undefined;
 if (_player_from.deck_size > 0) {
 	
@@ -35,7 +35,7 @@ if (_player_from.deck_size > 0) {
 	_card.state = card_state_idle;
 
 	// Add Card To Hand If Space
-	if (hand_size < hand_limit) {
+	if (_player_to.hand_size < _player_to.hand_limit) {
 		ds_list_add(_player_to.hand, _card);
 		_player_to.hand_size++;
 	}
@@ -43,7 +43,9 @@ if (_player_from.deck_size > 0) {
 	else
 		ds_list_add(_player_from.discard, _card_id);
 }
-	
+#endregion
+
+// Progress Action Q If Defined
 player_action_start_next(_player_to);
 
 return _card_id;

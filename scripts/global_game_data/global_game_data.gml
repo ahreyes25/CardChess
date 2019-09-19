@@ -16,6 +16,10 @@ enum TEAM {
 }
 #endregion
 
+// Settings
 global.screen_flash_mult	= 1.0;
 global.screen_shake_mult	= 1.0;
 global.save_objects			= [obj_game_controller, obj_turn_controller, obj_board, obj_player, obj_unit];
+
+// Game Properties
+global.starting_hand_size	= 3;

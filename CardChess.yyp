@@ -761,6 +761,25 @@
             }
         },
         {
+            "Key": "57f15658-d6db-449b-bd53-943cbd869b35",
+            "Value": {
+                "id": "56725233-0265-4990-afd6-8d00d626ceb8",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/game_state_idle\/game_state_idle.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5a66a987-3ef7-4b27-9a99-d649810398d3",
             "Value": {
                 "id": "d84c9640-c9b2-4d04-bf0b-2900b9732022",
@@ -1065,6 +1084,25 @@
             }
         },
         {
+            "Key": "792c98b6-8ebd-4663-afb8-62735130a47d",
+            "Value": {
+                "id": "82c208d1-1c1c-4f89-bd30-318fe7a00c28",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/game_state_setup\/game_state_setup.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "79d36a43-7bca-4c9a-a243-17c421efe15f",
             "Value": {
                 "id": "b7adc806-0d32-46e9-990d-66ff00ccec30",
@@ -1081,6 +1119,25 @@
                 ],
                 "resourcePath": "scripts\/ts_player_previous\/ts_player_previous.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "7a68e4d3-8c2f-415f-ba0b-5e7d43adb532",
+            "Value": {
+                "id": "98d55572-f8da-405d-8492-23d6ab3288a1",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/7a68e4d3-8c2f-415f-ba0b-5e7d43adb532.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1749,6 +1806,25 @@
             }
         },
         {
+            "Key": "ce6186e1-8af5-4469-b253-37bc452a28e3",
+            "Value": {
+                "id": "7b172f09-8842-4190-a1ee-4aa9d35c013c",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/player_state_setup\/player_state_setup.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d59d6271-e151-44fd-b714-7e724c906544",
             "Value": {
                 "id": "aec9e5a2-aa24-4041-85a7-a6fc170ea575",
@@ -2077,6 +2153,8 @@
         "28e9794b-18a6-4b8b-ad5d-d4043c58f30c",
         "1fc35a8e-1fb1-4774-8a91-bd24a2507c24",
         "4570396a-fd2d-4a2a-ad69-80dcd4439c66",
+        "792c98b6-8ebd-4663-afb8-62735130a47d",
+        "57f15658-d6db-449b-bd53-943cbd869b35",
         "a41b0b9d-cce2-4012-99f2-7aaeab25b116",
         "38de8cb3-cc7a-4134-9348-d3f17d347d56",
         "65df2e5d-6fe7-4d3c-9ba4-3b7c46f11b06",
@@ -2087,6 +2165,7 @@
         "687d6ad1-8d34-42b9-a28e-931824458366",
         "1f56488c-f753-44a3-a0b8-ef8b5a634d79",
         "cb831298-03a2-41e3-a91b-66375a48b0fb",
+        "ce6186e1-8af5-4469-b253-37bc452a28e3",
         "504a6398-a0de-4ecf-b013-8271b51df6e5",
         "e075c8e4-8e8a-4b76-b660-353835d3bb2c",
         "1ccd1e1a-4401-4167-96e7-9197fff4443e",

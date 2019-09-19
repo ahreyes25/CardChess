@@ -14,3 +14,4 @@ data[? "x"]					= x;
 data[? "y"]					= y;
 data[? "actions"]			= actions;
 data[? "execute_action"]	= execute_action;
+data[? "board_units"]		= board_units;

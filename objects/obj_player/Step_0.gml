@@ -1,3 +1,7 @@
+// Dont Do Anything If State Hasnt Been Defined Yet
+if (state == undefined) return;
+
+// Execute State
 if (state == player_state_place_unit)
 	script_execute(state, unit_on_mouse);
 else

@@ -14,3 +14,5 @@ cursor				= undefined;
 room_goto_next();
 
 data = ds_map_create();
+
+state = game_state_setup;
