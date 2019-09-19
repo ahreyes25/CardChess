@@ -286,25 +286,6 @@
             }
         },
         {
-            "Key": "1ccd1e1a-4401-4167-96e7-9197fff4443e",
-            "Value": {
-                "id": "bf8a38a2-e007-4a2c-ac91-4ed0b3770a19",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "scripts\/player_is_turn\/player_is_turn.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "1cdec522-f8ca-4ea6-be2a-ac7993b179b2",
             "Value": {
                 "id": "154eab96-3514-44e3-94e2-339f1f65226b",
@@ -476,6 +457,25 @@
             }
         },
         {
+            "Key": "2b6c8d9b-7e50-4a3f-ba6d-816820cb8707",
+            "Value": {
+                "id": "d28e186f-ddcf-42e9-905a-d2ac5aa578b1",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/turn_end\/turn_end.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "308a6c60-bc4c-4e58-9340-6968630bcd00",
             "Value": {
                 "id": "fada5107-66bf-4f82-b882-a005ee7352fd",
@@ -644,6 +644,25 @@
                 ],
                 "resourcePath": "objects\/obj_cursor\/obj_cursor.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "484e7850-7690-4431-b10b-9e2efc19da41",
+            "Value": {
+                "id": "d1d44a9d-3ad7-4cd7-8b7a-dacb2777277b",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/team_get_current\/team_get_current.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -967,6 +986,25 @@
                 ],
                 "resourcePath": "views\/6d9163a7-41de-4ffa-886d-c1abf41edfa2.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "72fee0e9-a72b-46b1-bc48-414df7fb8633",
+            "Value": {
+                "id": "a00c9d02-ff6c-4c1c-b036-b948cbe1cf27",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/player_state_wait\/player_state_wait.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1369,6 +1407,25 @@
             }
         },
         {
+            "Key": "99ef4008-a6e1-4a93-86d3-6cf487f37629",
+            "Value": {
+                "id": "62f3a55f-085d-411c-b3a8-7a239f3973dd",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/turn_count_add\/turn_count_add.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "9ab001da-35ab-44ce-b78e-f34ec67592e9",
             "Value": {
                 "id": "98aa860d-623f-4696-8bb6-1ff2264acb29",
@@ -1383,7 +1440,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "scripts\/turn_system_next_team\/turn_system_next_team.yy",
+                "resourcePath": "scripts\/team_next\/team_next.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1882,6 +1939,25 @@
             }
         },
         {
+            "Key": "dfcfc742-3e76-4376-aae2-e5b79eb4893f",
+            "Value": {
+                "id": "5c083c1d-9241-49dd-9eb8-b9dd83dd9013",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/initiated\/initiated.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e075c8e4-8e8a-4b76-b660-353835d3bb2c",
             "Value": {
                 "id": "294db6e3-e1e8-4380-b577-bdf8b5621495",
@@ -2146,9 +2222,9 @@
         "1f56488c-f753-44a3-a0b8-ef8b5a634d79",
         "cb831298-03a2-41e3-a91b-66375a48b0fb",
         "ce6186e1-8af5-4469-b253-37bc452a28e3",
+        "72fee0e9-a72b-46b1-bc48-414df7fb8633",
         "504a6398-a0de-4ecf-b013-8271b51df6e5",
         "e075c8e4-8e8a-4b76-b660-353835d3bb2c",
-        "1ccd1e1a-4401-4167-96e7-9197fff4443e",
         "308a6c60-bc4c-4e58-9340-6968630bcd00",
         "76fdfbb2-470f-41c9-9a7d-93dcc4f4baef",
         "5a66a987-3ef7-4b27-9a99-d649810398d3",
@@ -2162,9 +2238,13 @@
         "4bb83ed5-5cdb-4e98-861a-b5fee0876113",
         "083266e8-a748-4edc-84ae-c63f404c57a0",
         "869334ee-6a40-4709-83c3-b157ab32556f",
+        "dfcfc742-3e76-4376-aae2-e5b79eb4893f",
         "28483a2a-a742-4661-8934-9c5498f8a0f1",
         "fed10d3f-4cd4-46e9-b482-3d9af116db90",
-        "9ab001da-35ab-44ce-b78e-f34ec67592e9"
+        "9ab001da-35ab-44ce-b78e-f34ec67592e9",
+        "484e7850-7690-4431-b10b-9e2efc19da41",
+        "2b6c8d9b-7e50-4a3f-ba6d-816820cb8707",
+        "99ef4008-a6e1-4a93-86d3-6cf487f37629"
     ],
     "tutorial": ""
 }

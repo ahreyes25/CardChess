@@ -1,3 +1,4 @@
+- pickup unit
 - move unit
 - upgrade unit
 - attack 
@@ -7,6 +8,7 @@
 - replace all direct references to controllers to references through game_controller
 - remove unit data from board after moving them
 - remove unit from player unit list when it is destroyed
+- remove if instance_exists obj_game_controller
 
 - setup simple save state before networking
 - networking

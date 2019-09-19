@@ -1,18 +1,24 @@
-// Dont Do Anything If State Hasnt Been Defined Yet
-if (state == undefined) return;
+if (state == undefined) return;	// Check That State Is Defined
 
-// Execute State
+#region Execute State
+//if (
+//	//unit_on_mouse != UNIT.KING &&
+//) {	
+//		state = player_state_idle;	
+//}
+
 if (state == player_state_place_unit)
 	script_execute(state, unit_on_mouse);
 else
-	script_execute(state);
+	script_execute(state);	
+#endregion
 
-// Action Q
+#region Action Q
 if (actions != undefined && execute_action) {
 	
 	execute_action = false;
-	
 	var _action = ds_queue_dequeue(actions);
+	
 	if (_action != undefined) {
 		if (is_array(_action)) {
 			var _script		= _action[0];	
@@ -23,3 +29,4 @@ if (actions != undefined && execute_action) {
 			script_execute(_action);
 	}
 }
+#endregion

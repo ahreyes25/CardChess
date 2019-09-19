@@ -1,6 +1,4 @@
-if (!instance_exists(obj_game_controller)) return;
-if (obj_game_controller.turn_controller == undefined) return;
-if (!instance_exists(obj_game_controller.turn_controller)) return;
+if (!initiated(obj_game_controller.turn_controller)) return;
 
 obj_game_controller.turn_controller.team_index++;
 

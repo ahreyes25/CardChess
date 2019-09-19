@@ -15,8 +15,7 @@ if (mouse_check_button_pressed(mb_left)) {
 	if (in_bounds(board.grid, _u, _v) && board.grid[# _u, _v] == 0) {
 		
 		// Check That Space Is Withing Spawn Zone
-		if ((team == TEAM.WHITE && _v < board.grid_height && _v >= board.grid_height - spawn_size) ||
-			(team == TEAM.BLUE && _v >= 0 && _v < spawn_size)) {
+		if (team == TEAM.WHITE && _v < board.grid_height && _v >= board.grid_height - spawn_size) {
 					
 				unit_on_mouse = undefined;
 		
@@ -24,7 +23,11 @@ if (mouse_check_button_pressed(mb_left)) {
 				var _unit = unit_create(_unit, team, _world_coords[_.X], _world_coords[_.Y], board);
 				ds_list_add(units, _unit);
 		
-				state = player_state_idle;		
+				if (team_get_current() == team)
+					state = player_state_idle;
+				else
+					state = player_state_wait;		
+				
 				player_action_start_next();
 		}
 	}
