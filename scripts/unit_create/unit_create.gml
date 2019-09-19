@@ -1,5 +1,5 @@
-/// @param unit
-/// @param team
+/// @param unit_enum
+/// @param team_enum
 /// @param x
 /// @param y
 /// @param board_inst
@@ -13,7 +13,7 @@ var _board	= argument4;
 var _player	= argument5;
 
 var _unit_instance			= instance_create_layer(_x, _y, "Units", obj_unit);
-_unit_instance.unit			= _unit;
+_unit_instance.unit_type	= _unit;
 _unit_instance.team			= _team;
 _unit_instance.attack		= global.unit_data[_unit, UP.ATTACK];
 _unit_instance.life			= global.unit_data[_unit, UP.LIFE];

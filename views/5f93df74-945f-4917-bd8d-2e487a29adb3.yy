@@ -4,9 +4,8 @@
     "mvc": "1.1",
     "name": "5f93df74-945f-4917-bd8d-2e487a29adb3",
     "children": [
-        "9ed1355c-7364-49bd-90f0-6f0e231a7c99",
-        "1f56488c-f753-44a3-a0b8-ef8b5a634d79",
-        "546b4f99-57b7-40d1-ab07-41b251f6547c"
+        "546b4f99-57b7-40d1-ab07-41b251f6547c",
+        "9ed1355c-7364-49bd-90f0-6f0e231a7c99"
     ],
     "filterType": "GMScript",
     "folderName": "Unit Scripts",

@@ -1,7 +1,7 @@
 data = ds_map_create();
 
 // Serialized Data
-unit		= undefined;
+unit_type	= undefined;
 team		= undefined;
 player		= undefined;
 board		= undefined;

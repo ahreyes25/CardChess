@@ -1,9 +1,9 @@
-- pickup unit
 - move unit
 - upgrade unit
 - attack 
 - defeat unit
 - enchant unit
+- show unit info on hover
 
 - replace all direct references to controllers to references through game_controller
 - remove unit data from board after moving them

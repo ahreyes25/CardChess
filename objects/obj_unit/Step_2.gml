@@ -1,9 +1,10 @@
 // Store Data In Board Grid
 if (board != undefined && board_u != undefined && board_v != undefined)
-	board_space_set_data(board, board_u, board_v, id);
+	if (state == unit_state_idle && in_bounds(board.grid, board_u, board_v))
+		board_space_set_data(board, board_u, board_v, id);
 
 // Save Data
-data[? "unit"]			= unit;
+data[? "unit_type"]		= unit_type;
 data[? "team"]			= team;
 data[? "player"]		= player;
 data[? "board"]			= board;
