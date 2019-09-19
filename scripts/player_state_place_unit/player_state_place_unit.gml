@@ -22,6 +22,7 @@ if (mouse_check_button_pressed(mb_left)) {
 		
 				var _world_coords = board_to_world(_u, _v, true);
 				var _unit = unit_create(_unit, team, _world_coords[_.X], _world_coords[_.Y], board, true);
+				ds_list_add(units, _unit);
 		
 				state = player_state_idle;		
 				player_action_start_next();
