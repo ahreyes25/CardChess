@@ -1,8 +1,8 @@
 {
-    "id": "687d6ad1-8d34-42b9-a28e-931824458366",
+    "id": "9ab001da-35ab-44ce-b78e-f34ec67592e9",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "unit_add_team",
+    "name": "turn_system_next_team",
     "IsCompatibility": false,
     "IsDnD": false
 }

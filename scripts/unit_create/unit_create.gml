@@ -3,14 +3,12 @@
 /// @param x
 /// @param y
 /// @param board_inst
-/// @param add_to_team?
 
 var _unit	= argument0;
 var _team	= argument1;
 var _x		= argument2;
 var _y		= argument3;
 var _board	= argument4;
-var _add	= argument5;
 
 var _unit_instance			= instance_create_layer(_x, _y, "Units", obj_unit);
 _unit_instance.unit			= _unit;
@@ -28,10 +26,6 @@ if (_team == TEAM.WHITE)
 	_unit_instance.dir_moving = DIR.UP;
 else if (_team == TEAM.BLUE)
 	_unit_instance.dir_moving = DIR.DOWN;
-
-// Add To Team List
-if (_add)
-	unit_add_team(_unit_instance, _team);
 
 // Store Data In Grid
 var _board_coords = world_to_board(_x, _y, _board);

@@ -25,3 +25,4 @@ global.save_objects			= [obj_game_controller, obj_turn_controller, obj_board, ob
 global.starting_hand_size	= 3;
 global.deck_limit			= 30;
 global.default_spawn_size	= 2;
+global.teams				= [TEAM.WHITE, TEAM.BLUE];

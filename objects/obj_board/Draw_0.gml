@@ -17,7 +17,7 @@ draw_set_color(c_white);
 #endregion
 
 #region Draw Spawn Zones
-if (instance_exists(obj_turn_controller) && obj_turn_controller.current_team_turn == obj_turn_controller.team_white) {
+if (instance_exists(obj_turn_controller) && obj_turn_controller.team_current == TEAM.WHITE) {
 	if (instance_exists(obj_game_controller) && obj_game_controller.player_local.unit_on_mouse != undefined) {
 	
 		for (var i = 0; i < grid_width; i++) {

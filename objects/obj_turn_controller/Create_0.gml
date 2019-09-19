@@ -1,24 +1,7 @@
 data = ds_map_create();
 
 // Serialized Data
-current_team_turn			= noone;
-next_team_turn				= noone;
-previous_team_turn			= noone;
-current_team_index			= 0;
-current_player_turn			= noone;
-next_player_turn			= noone;
-previous_player_turn		= noone;
-current_team_player_index	= 0;
+team_index		= 0;
+team_current	= global.teams[team_index];
 
 // Non-Serialized Data
-teams		= ds_list_create();
-team_white	= ds_list_create();
-team_blue	= ds_list_create();
-ds_list_add(teams, team_white);
-ds_list_add(teams, team_blue);
-
-// Set starting team and player
-current_team_turn	= ds_list_find_value(teams, current_team_index);
-current_player_turn = ds_list_find_value(current_team_turn, current_team_player_index);
-ts_team_update_order();
-ts_player_update_order();
