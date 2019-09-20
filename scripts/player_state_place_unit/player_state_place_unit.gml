@@ -3,6 +3,7 @@
 var _unit_type = argument0;
 
 unit_on_mouse = _unit_type;
+unit_selected = undefined;
 
 // Place King
 if (mouse_check_button_pressed(mb_left)) {

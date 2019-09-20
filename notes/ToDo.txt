@@ -12,3 +12,5 @@
 
 - setup simple save state before networking
 - networking
+
+- interactive board elements, pressure plate to lift bridge

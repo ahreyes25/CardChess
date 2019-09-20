@@ -54,4 +54,6 @@ if (in_bounds(board.grid, _mouse_u, _mouse_v)) {
 						true
 					);
 }
+else
+	unit_touching = undefined;
 #endregion

@@ -15,3 +15,5 @@ data[? "board_v"]		= board_v;
 data[? "state"]			= state;
 data[? "dir_moving"]	= dir_moving;
 data[? "state"]			= state;
+data[? "moved"]			= moved;
+data[? "attacked"]		= attacked;

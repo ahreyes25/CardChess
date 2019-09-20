@@ -23,6 +23,7 @@ _unit_instance.image_speed	= 0;
 _unit_instance.state		= unit_state_idle;
 _unit_instance.board		= _board;
 _unit_instance.player		= _player;
+_unit_instance.move_config	= unit_get_move_config(_unit_instance);
 
 // Set Movement Direction
 if (_team == TEAM.WHITE)
