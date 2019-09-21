@@ -22,3 +22,4 @@ global.starting_hand_size	= 3;
 global.deck_limit			= 30;
 global.default_spawn_size	= 2;
 global.teams				= [TEAM.WHITE, TEAM.BLUE];
+global.number_of_cards		= array_height_2d(global.card_data);

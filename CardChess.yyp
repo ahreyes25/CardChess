@@ -115,6 +115,25 @@
             }
         },
         {
+            "Key": "05d345ed-79e9-412f-81b5-624b143c7726",
+            "Value": {
+                "id": "a4d25c58-5318-4228-836d-b8e12ed21a0d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_card_rook\/spr_card_rook.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "081f3497-f2cd-4f9f-941e-fa546c5c70ae",
             "Value": {
                 "id": "cae76e2f-db27-48ce-9e91-4e125fc9db3a",
@@ -452,7 +471,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sprites\/spr_card_pawn1_card1\/spr_card_pawn1_card1.yy",
+                "resourcePath": "sprites\/spr_card_pawn\/spr_card_pawn.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -473,6 +492,25 @@
                 ],
                 "resourcePath": "scripts\/turn_end\/turn_end.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "2c8fa489-2a73-47df-ba5d-a981f8c1fb80",
+            "Value": {
+                "id": "33ba67ca-6368-4385-93ef-ca8ced45c677",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_card_bishop\/spr_card_bishop.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -549,6 +587,25 @@
                 ],
                 "resourcePath": "scripts\/world_to_board\/world_to_board.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "3b099143-7ea5-4784-b563-077add43e7af",
+            "Value": {
+                "id": "75e9eeb4-3101-4241-afa3-25828a3715ed",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_card_queen\/spr_card_queen.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -852,6 +909,25 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/spr_pawn\/spr_pawn.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5b3b32b9-c355-49bc-a777-57732cd11ac4",
+            "Value": {
+                "id": "e3e16e39-14e2-4eff-9909-a221aef49213",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_card_knight\/spr_card_knight.yy",
                 "resourceType": "GMSprite"
             }
         },

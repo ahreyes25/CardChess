@@ -14,10 +14,8 @@ if (instance_exists(obj_player_local) && obj_player_local.state != undefined)
 if (instance_exists(obj_player_local) && obj_player_local.unit_touching != undefined)
 	draw_text(10, 85, "Touching: " + string(obj_player_local.unit_touching));
 	
-if (instance_exists(obj_player_local) && obj_player_local.unit_selected != undefined) {
+if (instance_exists(obj_player_local) && obj_player_local.unit_selected != undefined)
 	draw_text(10, 100, "Selected: " + string(obj_player_local.unit_selected));
-	draw_text(10, 115, "Selected State: " + string(script_get_name(obj_player_local.unit_selected.state)));
-}
 
 if (instance_exists(obj_board)) {
 	for (var i = 0; i < obj_board.grid_width; i++) {

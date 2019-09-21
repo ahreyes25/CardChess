@@ -1,6 +1,6 @@
-global_game_data();
-global_unit_data();
 global_card_data();
+global_unit_data();
+global_game_data();
 
 debug				= undefined;
 camera				= undefined;

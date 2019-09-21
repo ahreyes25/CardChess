@@ -1,8 +1,8 @@
 data = ds_map_create();
 
 // Serialized Data
-grid_width			= 10;
-grid_height			= 4  ;
+grid_width			= irandom_range(2, 10);
+grid_height			= irandom_range(2, 10);
 grid				= ds_grid_create(grid_width, grid_height);
 
 // Non-Serialized Data
