@@ -1,8 +1,8 @@
 {
-    "id": "e9c5558d-5615-46c5-923c-96e8f0dd3041",
+    "id": "477c2230-41b6-4721-805b-869827e00c5b",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "player_state_move_unit",
+    "name": "unit_get_attack_config",
     "IsCompatibility": false,
     "IsDnD": false
 }

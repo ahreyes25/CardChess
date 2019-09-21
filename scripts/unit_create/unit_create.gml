@@ -12,27 +12,18 @@ var _y		= argument3;
 var _board	= argument4;
 var _player	= argument5;
 
-var _unit_instance			= instance_create_layer(_x, _y, "Units", obj_unit);
-_unit_instance.unit_type	= _unit;
-_unit_instance.team			= _team;
-_unit_instance.attack		= global.unit_data[_unit, UP.ATTACK];
-_unit_instance.life			= global.unit_data[_unit, UP.LIFE];
-_unit_instance.sprite_index	= global.unit_data[_unit, UP.SPRITE];
-_unit_instance.image_index	= _team;
-_unit_instance.image_speed	= 0;
-_unit_instance.state		= unit_state_idle;
-_unit_instance.board		= _board;
-_unit_instance.player		= _player;
-_unit_instance.move_config	= unit_get_move_config(_unit_instance);
-
-// Set Movement Direction
-if (_team == TEAM.WHITE)
-	_unit_instance.dir_moving = DIR.UP;
-else if (_team == TEAM.BLUE)
-	_unit_instance.dir_moving = DIR.DOWN;
-
-// Store Data In Grid
-var _board_coords = world_to_board(_x, _y, _board);
-board_space_set_data(_board, _board_coords[_.X], _board_coords[_.Y], _unit_instance);
+var _unit_instance				= instance_create_layer(_x, _y, "Units", obj_unit);
+_unit_instance.unit_type		= _unit;
+_unit_instance.team				= _team;
+_unit_instance.attack			= global.unit_data[_unit, UP.ATTACK];
+_unit_instance.life				= global.unit_data[_unit, UP.LIFE];
+_unit_instance.sprite_index		= global.unit_data[_unit, UP.SPRITE];
+_unit_instance.image_index		= _team;
+_unit_instance.image_speed		= 0;
+_unit_instance.state			= unit_state_idle;
+_unit_instance.board			= _board;
+_unit_instance.player			= _player;
+_unit_instance.move_config		= unit_get_move_config(_unit_instance);
+_unit_instance.attack_config	= unit_get_attack_config(_unit_instance);
 
 return _unit_instance;

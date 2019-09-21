@@ -5,10 +5,6 @@ switch (state) {
 	case player_state_place_unit:
 		script_execute(state, unit_on_mouse);
 		break;
-		
-	case player_state_move_unit:
-		script_execute(state, unit_moving);
-		break;
 	
 	default: 
 		script_execute(state);

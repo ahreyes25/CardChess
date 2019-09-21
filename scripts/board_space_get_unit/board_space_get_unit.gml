@@ -8,4 +8,5 @@ var _v		= argument2;
 
 if (!ds_exists(_board, ds_type_grid)) return;
 
-return _board.grid[# _u, _v];
+var _unit_map = _board.grid[# _u, _v];
+return _unit_map[? "id"];

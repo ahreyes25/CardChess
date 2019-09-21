@@ -45,10 +45,29 @@ if (obj_game_controller.player_local.unit_selected != undefined && obj_game_cont
 				var _world_coords = board_to_world(board_u + _u, board_v + _v, false);
 				var _x = _world_coords[_.X];
 				var _y = _world_coords[_.Y];
-				draw_sprite_ext(spr_valid, 0, _x, _y, 1, 1, 0, c_white, 0.5);
+				draw_sprite_ext(spr_valid, 0, _x, _y, 1, 1, 0, c_white, 0.75);
 			}	
 		}
 	}
 }
+#endregion
 
+#region Draw Selected Unit Attack
+if (obj_game_controller.player_local.unit_selected != undefined && obj_game_controller.player_local.unit_selected.show_attack) {
+	
+	with (obj_game_controller.player_local.unit_selected) {
+		for (var i = 0; i < array_length_1d(attack_config); i++) {
+			var _attack_points = attack_config[i];
+			var _u = _attack_points[_.X];
+			var _v = _attack_points[_.Y];
+		
+			if (in_bounds(board.grid, board_u + _u, board_v + _v)) {
+				var _world_coords = board_to_world(board_u + _u, board_v + _v, false);
+				var _x = _world_coords[_.X];
+				var _y = _world_coords[_.Y];
+				draw_sprite_ext(spr_invalid, 0, _x, _y, 1, 1, 0, c_white, 0.75);
+			}	
+		}
+	}
+}
 #endregion

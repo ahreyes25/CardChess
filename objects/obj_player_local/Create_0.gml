@@ -29,5 +29,4 @@ info_string		= undefined;
 unit_on_mouse	= undefined;	// snapped to mouse	
 card_on_mouse	= undefined;	// snapped to mouse
 unit_touching	= undefined;	// mouse touching unit on board
-unit_moving		= undefined;	// unit currently moving and snapped to mouse
 unit_selected	= undefined;	// unit clicked on and selected

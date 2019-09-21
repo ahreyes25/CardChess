@@ -1,16 +1,48 @@
-show_info	= true;
-show_move	= true;
-show_attack	= true;
+show_info = true;
 
 if (player.unit_selected != id)
 	state = unit_state_idle;
+	
+// Toggle Between Show Movement & Show Attack
+if (player.unit_touching != undefined && player.unit_touching != noone && player.unit_touching == id) {
+	if (mouse_check_button_pressed(mb_left)) {
+		show_move	= true;
+		show_attack = false;
+	}
+	else if (mouse_check_button_pressed(mb_left)) {
+		show_move	= false;
+		show_attack = true;
+	}
+}
 
-// Click On Movement Position
+// Move
 if (mouse_check_button_pressed(mb_left)) {
 	var _board_coords = world_to_board(mouse_x, mouse_y, board);
 	var _u = _board_coords[_.X];
 	var _v = _board_coords[_.Y];
 	
-	if (in_bounds(board.grid, _u, _v)) 
-		show_debug_message("u: " + string(_u) + ", v: " + string(_v));
+	// Make Sure Space Is On The Board
+	if (in_bounds(board.grid, _u, _v) && board_space_empty(board, _u, _v)) {
+		var _move_u = _u - board_u; 
+		var _move_v = _v - board_v;
+		
+		// Check If Clicked Space Is In Our Move Config Array
+		for (var i = 0; i < array_length_1d(move_config); i++) {
+			var _conf = move_config[i];
+			var _x = _conf[_.X];
+			var _y = _conf[_.Y];
+			if (_x == _move_u && _y == _move_v) {
+				
+				// Valid Space, Move There
+				board_space_clear_data(board, board_u, board_v);
+				board_u = _u;
+				board_v = _v;
+				var _world_coords = board_to_world(_u, _v, true);
+				x = _world_coords[_.X];
+				y = _world_coords[_.Y];
+				state = unit_state_idle;
+				break;	
+			}
+		}
+	}
 }	
