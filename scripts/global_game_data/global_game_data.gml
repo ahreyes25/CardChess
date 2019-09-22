@@ -10,6 +10,10 @@ enum DIR {
 enum TEAM {
 	WHITE, BLUE	
 }
+
+enum DATA {
+	TEAM,	
+}
 #endregion
 
 // Settings

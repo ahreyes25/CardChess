@@ -1,0 +1,30 @@
+- flow
+	--> pick host 
+		--> host determines board size, whos white, etc 
+			-->
+
+- player_local
+	- hand size (buffer_u8)
+	- deck size (buffer_u8)
+
+		- send out when a unit is created 
+			- board u (buffer_u8)
+			- board v (buffer_u8)
+			- unit type (buffer_u8)
+		- send out when a unit is moved
+			- start u (buffer_u8)
+			- start v (buffer_u8)
+			- moved u (buffer_u8)
+			- moved v (buffer_u8)
+		- send out when a unit is  destroyed
+			- board u (buffer_u8)
+			- board v (buffer_u8)
+
+
+
+
+- player_remote
+	- make a connection to the server
+	- read when a unit is created
+	- read when a unit is moved
+	- read when a unit is destroyed

@@ -3,10 +3,11 @@ var _counter = 0;
 
 for (var i = 0; i < grid_width; i++) {
 	for (var j = 0; j < grid_height; j++) {
-		draw_sprite(board_sprite, (i + j) mod 2, x + (i * space_width), y + (j * space_height));
+		draw_sprite(board_sprite, (i + j) mod 2, x + (i * space_width), y + (j * space_height));	
 		_counter++;
 	}
-	if (grid_width mod 2 == 0)
+
+	if (grid_height mod 2 == 0)
 		draw_sprite(board_edge_sprite, (i mod 2 == 0), x + (i * space_width), y + (space_height * grid_height));
 	else
 		draw_sprite(board_edge_sprite, (i mod 2 == 1), x + (i * space_width), y + (space_height * grid_height));

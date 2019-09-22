@@ -11,8 +11,7 @@ player_local		= undefined;
 player_remote		= undefined;
 cursor				= undefined;
 
+data	= ds_map_create();
+state	= game_state_setup;
+
 room_goto_next();
-
-data = ds_map_create();
-
-state = game_state_setup;
