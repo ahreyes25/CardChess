@@ -17,11 +17,17 @@ if (instance_exists(obj_player_local) && obj_player_local.unit_touching != undef
 if (instance_exists(obj_player_local) && obj_player_local.unit_selected != undefined)
 	draw_text(10, 100, "Selected: " + string(obj_player_local.unit_selected));
 
-if (instance_exists(obj_board)) {
-	for (var i = 0; i < obj_board.grid_width; i++) {
-		for (var j = 0; j < obj_board.grid_height; j++) {
-			draw_text(10 + (i * 15), 150 + (j * 15), obj_board.grid[# i, j]);
-		}	
+//if (instance_exists(obj_board)) {
+//	for (var i = 0; i < obj_board.grid_width; i++) {
+//		for (var j = 0; j < obj_board.grid_height; j++) {
+//			draw_text(10 + (i * 15), 150 + (j * 15), obj_board.grid[# i, j]);
+//		}	
+//	}
+//}
+
+if (instance_exists(obj_player_local)) {
+	for (var i = 0; i < ds_list_size(obj_player_local.units); i++) {
+		draw_text(10, 150 + (i * 15), obj_player_local.units[| i]);	
 	}
 }
 
