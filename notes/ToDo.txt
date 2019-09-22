@@ -5,6 +5,7 @@
 - show unit info on hover
 
 - player1 cannot play cards until both kings are down
+- units cannot move through other existing units
 
 - replace all direct references to controllers to references through game_controller
 - remove unit from player unit list when it is destroyed

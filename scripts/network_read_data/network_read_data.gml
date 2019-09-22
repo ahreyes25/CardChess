@@ -58,4 +58,9 @@ switch (buffer_read(_buffer, buffer_u8)) {
 	case DATA.UNIT_MOVE:
 		network_unit_update_position_read(_buffer);
 	break;
+	
+	// Destroy Unit
+	case DATA.UNIT_DESTROY:
+		network_unit_destroy_read(_buffer);
+	break;
 }
