@@ -3,5 +3,5 @@ enum TEAM {
 }
 
 enum DATA {
-	TEAM,	
+	TEAM,
 }

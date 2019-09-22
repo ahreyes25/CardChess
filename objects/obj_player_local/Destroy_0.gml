@@ -4,7 +4,3 @@ ds_list_destroy(discard);
 ds_map_destroy(units);
 ds_map_destroy(data);
 ds_queue_destroy(actions);
-
-// Network
-buffer_delete(buffer);
-network_destroy(socket)

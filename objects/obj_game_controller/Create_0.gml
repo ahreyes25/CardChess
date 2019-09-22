@@ -1,3 +1,4 @@
+randomize();
 global_card_data();
 global_unit_data();
 global_game_data();

@@ -12,7 +12,7 @@ enum TEAM {
 }
 
 enum DATA {
-	TEAM,	
+	TEAM, BOARD_SIZE, UNIT_CREATE, UNIT_MOVE
 }
 #endregion
 

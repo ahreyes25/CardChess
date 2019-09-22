@@ -32,19 +32,3 @@ unit_on_mouse	= undefined;	// snapped to mouse
 card_on_mouse	= undefined;	// snapped to mouse
 unit_touching	= undefined;	// mouse touching unit on board
 unit_selected	= undefined;	// unit clicked on and selected
-
-// Network
-socket				= network_create_socket(network_socket_tcp);
-ip					= "127.0.0.1";
-is_connected		= network_connect(socket, ip, 50000);
-is_host				= false;
-var _buffer_bytes	= 11;
-var _buffer_type	= buffer_fixed;
-var _buffer_align	= 1;
-buffer				= buffer_create(_buffer_bytes, _buffer_type, _buffer_align);
-
-// Host Server
-var _server_type	= network_socket_tcp;
-var _port			= 50000;
-server				= undefined;
-socket				= undefined;

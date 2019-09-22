@@ -4,11 +4,10 @@
 - enchant unit
 - show unit info on hover
 
+- player1 cannot play cards until both kings are down
+
 - replace all direct references to controllers to references through game_controller
 - remove unit from player unit list when it is destroyed
 - remove if instance_exists obj_game_controller
-
-- setup simple save state before networking
-- networking
 
 - interactive board elements, pressure plate to lift bridge

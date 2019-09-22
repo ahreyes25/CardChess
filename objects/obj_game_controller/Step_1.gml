@@ -20,10 +20,15 @@ if (room == rm_game) {
 	if (!instance_exists(obj_cursor))
 		cursor = instance_create_layer(mouse_x, mouse_y, "Controllers", obj_cursor);
 	
-	// Create Remote Player
+	// Create Local Player
 	if (!instance_exists(obj_player_local)) {
 		player_local		= instance_create_layer(room_width / 2, (room_height / 2) + (obj_game_controller.camera.height_current / 2), "Controllers", obj_player_local);
-		//player_local.team	= TEAM.BLUE;
 		player_local.board	= board;
+	}
+	
+	// Create Remote Player
+	if (!instance_exists(obj_player_remote)) {
+		player_remote		= instance_create_layer(room_width / 2, 0, "Controllers", obj_player_remote);
+		player_remote.board	= board;
 	}
 }

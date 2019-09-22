@@ -30,6 +30,7 @@ if (mouse_check_button_pressed(mb_left)) {
 					state = player_state_wait;		
 				
 				player_action_start_next();
+				network_unit_create_write(_unit_type, _u, _v);
 		}
 	}
 }

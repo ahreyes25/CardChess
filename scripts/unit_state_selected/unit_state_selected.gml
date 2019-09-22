@@ -31,16 +31,31 @@ if (mouse_check_button_pressed(mb_left)) {
 			var _conf = move_config[i];
 			var _x = _conf[_.X];
 			var _y = _conf[_.Y];
+			
+			// Valid Space, Move There
 			if (_x == _move_u && _y == _move_v) {
 				
-				// Valid Space, Move There
+				// Store Old Position
+				var _old_u = board_u;
+				var _old_v = board_v;
+				
+				// Clear Data
 				board_space_clear_data(board, board_u, board_v);
+				
+				// Update u,v Position
 				board_u = _u;
 				board_v = _v;
+				
+				// Update x,y Position
 				var _world_coords = board_to_world(_u, _v, true);
 				x = _world_coords[_.X];
 				y = _world_coords[_.Y];
+				
+				// Update State
 				state = unit_state_idle;
+				
+				// Update Remote Player
+				network_unit_update_position_write(_old_u, _old_v, board_u, board_v);
 				break;	
 			}
 		}
