@@ -267,25 +267,6 @@
             }
         },
         {
-            "Key": "1480ec16-e6ad-4a99-b8f5-3b2a6e4e5ebc",
-            "Value": {
-                "id": "5704c314-d51a-432b-bcf3-953a67cd625c",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "notes\/Networking.yy",
-                "resourceType": "GMNotes"
-            }
-        },
-        {
             "Key": "18891f5f-d109-4dd0-a2dd-8708ffc47135",
             "Value": {
                 "id": "e5af2c42-27d0-4dc0-814e-16cec26f4a0c",

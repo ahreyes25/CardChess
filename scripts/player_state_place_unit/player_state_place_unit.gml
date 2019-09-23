@@ -5,6 +5,10 @@ var _unit_type = argument0;
 unit_on_mouse = _unit_type;
 unit_selected = undefined;
 
+// Host Player Cannot Place King Until Opponent Has Joined
+if (_unit_type == UNIT.KING && obj_player_remote.is_host && ds_list_size(obj_player_remote.sockets) <= 0)
+	return;
+
 if (mouse_check_button_pressed(mb_left)) {
 	
 	var _board_coords = world_to_board(mouse_x, mouse_y, board);
