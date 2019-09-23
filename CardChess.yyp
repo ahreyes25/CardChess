@@ -1597,25 +1597,6 @@
             }
         },
         {
-            "Key": "92b7a2cd-48d4-4bbe-9b83-ed4e732e718c",
-            "Value": {
-                "id": "802e09b9-4dff-41fa-b97e-21d28c8fc0ff",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "scripts\/network_draw_card_write\/network_draw_card_write.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "93566aad-c3b3-48a9-8fa7-9c5ee19f74ac",
             "Value": {
                 "id": "76d508bb-e8ad-4205-90b5-f082d90508da",
@@ -2414,6 +2395,25 @@
             }
         },
         {
+            "Key": "e61f9da8-0c7b-43b5-8046-99119b89d5e9",
+            "Value": {
+                "id": "b14293b6-a7ba-4f90-a0f2-f5d6a5b59a2e",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_player_parent\/obj_player_parent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e6a99159-a1bb-4ac3-92a7-a124a7ad1026",
             "Value": {
                 "id": "b8023f31-88ce-47f8-a1e6-634a2e157e33",
@@ -2638,7 +2638,6 @@
         "6ba24590-2015-4517-9e1c-f16cf41b4552",
         "45067e67-95f3-4921-acf4-a56ff5a2eb66",
         "a9933c08-3717-495f-9a48-cc1023ead6f1",
-        "92b7a2cd-48d4-4bbe-9b83-ed4e732e718c",
         "76fdfbb2-470f-41c9-9a7d-93dcc4f4baef",
         "5a66a987-3ef7-4b27-9a99-d649810398d3",
         "9ab001da-35ab-44ce-b78e-f34ec67592e9",

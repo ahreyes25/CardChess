@@ -1,23 +1,9 @@
-team		= undefined;
-board		= undefined;
-has_king	= false;
+event_inherited();
 
-// Display Enemy Card Backs
 hand_x		= x;
 hand_y		= y + 15;
-hand		= ds_list_create();
-hand_size	= global.starting_hand_size;
-hand_limit	= global.starting_hand_limit;
-
-// Display Enemy Deck
-deck_size	= global.deck_limit;
 deck_x		= x + 150;
 deck_y		= y + 15;
-deck		= ds_list_create();
-
-// Add Cards to Deck
-repeat (deck_size)
-	ds_list_add(deck, CARD.BACK);
 
 // Network
 socket			= network_create_socket(network_socket_tcp);

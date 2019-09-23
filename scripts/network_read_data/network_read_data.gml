@@ -68,9 +68,4 @@ switch (buffer_read(_buffer, buffer_u8)) {
 	case DATA.TURN_END:
 		turn_end();
 	break;
-	
-	// Draw Card
-	case DATA.DRAW_CARD:
-		draw_card(obj_player_remote);
-	break;
 }
