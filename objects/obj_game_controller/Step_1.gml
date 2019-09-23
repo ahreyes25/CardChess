@@ -28,11 +28,11 @@ if (room == rm_game) {
 	
 	// Create Remote Player
 	if (!instance_exists(obj_player_remote)) {
-		player_remote		= instance_create_layer(room_width / 2, 0, "Controllers", obj_player_remote);
+		player_remote		= instance_create_layer(room_width / 2, (room_height / 2) - (obj_game_controller.camera.height_current / 2), "Controllers", obj_player_remote);
 		player_remote.board	= board;
 	}
 	
 	// End Turn Button
 	if (!instance_exists(obj_end_button))
-		instance_create_layer(room_width * 0.7, room_height / 2, "Controllers", obj_end_button);
+		instance_create_layer(room_width * 0.72, room_height / 2, "Controllers", obj_end_button);
 }

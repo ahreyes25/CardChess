@@ -1,4 +1,9 @@
-- display player remote's hand and deck size
+- spawn zones not showing?
+- player remote discard list
+- remote player hand rotation
+- remote player action q?
+- actually have remote player deck and hand be real card ids for potential weird card effects in the future
+- update networked hand and deck sizes 
 - units cannot move through other existing units
 - remove if instance_exists obj_game_controller
 - replace all direct references to controllers to references through game_controller
@@ -6,3 +11,14 @@
 - allow host to reset and send level reset to remote player
 - show unit info on hover
 - interactive board elements, pressure plate to lift bridge
+
+-----------------
+-- UNLOCKABLES --
+-----------------
+- unit skins
+- boards
+- card backs
+- backgrounds
+- end buttons
+- cursor
+- hand icons

@@ -12,7 +12,8 @@ enum TEAM {
 }
 
 enum DATA {
-	TEAM, BOARD_SIZE, UNIT_CREATE, UNIT_MOVE, UNIT_DESTROY, TURN_END
+	TEAM, BOARD_SIZE, UNIT_CREATE, UNIT_MOVE, UNIT_DESTROY, TURN_END,
+	DRAW_CARD
 }
 #endregion
 
@@ -23,6 +24,7 @@ global.save_objects			= [obj_game_controller, obj_turn_controller, obj_board, ob
 
 // Game Properties
 global.starting_hand_size	= 3;
+global.starting_hand_limit	= 7;
 global.deck_limit			= 30;
 global.default_spawn_size	= 2;
 global.teams				= [TEAM.WHITE, TEAM.BLUE];

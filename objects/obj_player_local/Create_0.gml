@@ -13,7 +13,7 @@ discard			= ds_list_create();		// holds card_id
 units			= ds_list_create();		// holds unit instance ids
 actions			= ds_queue_create();	// holds script index
 
-hand_limit		= 7;
+hand_limit		= global.starting_hand_limit;
 hand_size		= 0;
 deck_size		= global.deck_limit;
 execute_action	= false; 

@@ -7,6 +7,8 @@ else
 #endregion
 #region Exit Conditions
 if (!instance_exists(_player)) return undefined;
+if (!variable_instance_exists(_player, "execute_action")) return undefined;
+if (!variable_instance_exists(_player, "actions")) return undefined;
 #endregion
 
 if (ds_queue_size(_player.actions) > 0)

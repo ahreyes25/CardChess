@@ -58,25 +58,6 @@
             }
         },
         {
-            "Key": "03613c7b-65ea-41ea-b40a-2e817ce1f874",
-            "Value": {
-                "id": "d9941ffe-6159-4bef-bf82-04b83bea304a",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "scripts\/network_player_update_deck_size_read\/network_player_update_deck_size_read.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "04cf31c6-7dff-493c-bcd4-9e71b89b90c5",
             "Value": {
                 "id": "887d3d79-36ba-4f4b-b438-4c2acf41b3dc",
@@ -397,25 +378,6 @@
                 ],
                 "resourcePath": "views\/1ff9c8cb-8caf-4c40-94fe-37bd554ddfa4.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "254b302d-bdd3-4231-aaf2-45642eb916eb",
-            "Value": {
-                "id": "d6b87ad3-8019-4617-bbf0-aa3d8b0e35c6",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "scripts\/network_player_update_hand_size_write\/network_player_update_hand_size_write.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -951,25 +913,6 @@
             }
         },
         {
-            "Key": "5a511270-b153-47e0-b86a-3289f625a039",
-            "Value": {
-                "id": "40d2b270-0ab5-4f8d-b301-67167bb485a7",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "scripts\/network_player_update_deck_size_write\/network_player_update_deck_size_write.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "5a66a987-3ef7-4b27-9a99-d649810398d3",
             "Value": {
                 "id": "d84c9640-c9b2-4d04-bf0b-2900b9732022",
@@ -1081,6 +1024,25 @@
                 ],
                 "resourcePath": "views\/5f93df74-945f-4917-bd8d-2e487a29adb3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "63df50bb-c17b-44b6-b492-4ef2658e4b2f",
+            "Value": {
+                "id": "297ed751-bfd7-4a77-a991-498eb03ff478",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_card_back\/spr_card_back.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1635,6 +1597,25 @@
             }
         },
         {
+            "Key": "92b7a2cd-48d4-4bbe-9b83-ed4e732e718c",
+            "Value": {
+                "id": "802e09b9-4dff-41fa-b97e-21d28c8fc0ff",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/network_draw_card_write\/network_draw_card_write.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "93566aad-c3b3-48a9-8fa7-9c5ee19f74ac",
             "Value": {
                 "id": "76d508bb-e8ad-4205-90b5-f082d90508da",
@@ -2030,25 +2011,6 @@
                     "default"
                 ],
                 "resourcePath": "scripts\/board_space_get_unit\/board_space_get_unit.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "c2e2d8d2-9b3e-46e3-ada7-e8950d74263d",
-            "Value": {
-                "id": "cf5d831c-1523-4a0f-9bae-96e4e6a2b96d",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "scripts\/network_player_update_hand_size_read\/network_player_update_hand_size_read.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -2676,10 +2638,7 @@
         "6ba24590-2015-4517-9e1c-f16cf41b4552",
         "45067e67-95f3-4921-acf4-a56ff5a2eb66",
         "a9933c08-3717-495f-9a48-cc1023ead6f1",
-        "c2e2d8d2-9b3e-46e3-ada7-e8950d74263d",
-        "254b302d-bdd3-4231-aaf2-45642eb916eb",
-        "03613c7b-65ea-41ea-b40a-2e817ce1f874",
-        "5a511270-b153-47e0-b86a-3289f625a039",
+        "92b7a2cd-48d4-4bbe-9b83-ed4e732e718c",
         "76fdfbb2-470f-41c9-9a7d-93dcc4f4baef",
         "5a66a987-3ef7-4b27-9a99-d649810398d3",
         "9ab001da-35ab-44ce-b78e-f34ec67592e9",

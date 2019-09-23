@@ -48,4 +48,8 @@ if (_player_from.deck_size > 0) {
 // Progress Action Q If Defined
 player_action_start_next(_player_to);
 
+// Update Remote Player
+if (_player_to.object_index == obj_player_local && (ds_list_size(obj_player_remote.sockets) > 0 || obj_player_remote.socket != undefined))
+	network_draw_card_write();
+
 return _card_id;
