@@ -20,3 +20,6 @@ show_move		= false;
 show_attack		= false;
 move_config		= [];
 attack_config	= [];
+move_speed		= 10;
+target_x		= undefined;
+target_y		= undefined;

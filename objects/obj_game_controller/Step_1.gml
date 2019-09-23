@@ -34,5 +34,5 @@ if (room == rm_game) {
 	
 	// End Turn Button
 	if (!instance_exists(obj_end_button))
-		instance_create_layer(room_width * 0.75, room_height / 2, "Controllers", obj_end_button);
+		instance_create_layer(room_width * 0.7, room_height / 2, "Controllers", obj_end_button);
 }

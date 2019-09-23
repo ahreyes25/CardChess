@@ -15,7 +15,7 @@ if (player.unit_touching != undefined && player.unit_touching != noone && player
 	}
 }
 
-// Move
+#region Move
 if (mouse_check_button_pressed(mb_left)) {
 	var _board_coords = world_to_board(mouse_x, mouse_y, board);
 	var _u = _board_coords[_.X];
@@ -108,4 +108,5 @@ if (mouse_check_button_pressed(mb_left)) {
 			}
 		}
 	}
-}	
+}
+#endregion

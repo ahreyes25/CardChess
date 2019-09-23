@@ -1464,6 +1464,25 @@
             }
         },
         {
+            "Key": "8129e7e7-c750-4687-812a-55be9dd22dcb",
+            "Value": {
+                "id": "fdf5333b-d5af-41b6-9ae9-48dcda43085b",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/unit_state_drop\/unit_state_drop.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "817949d8-9066-483f-bbf7-fdbe5c32b5f0",
             "Value": {
                 "id": "07feb26a-1f92-4b00-abb8-b1caa0824bea",
@@ -2709,6 +2728,7 @@
         "c06d291e-95ed-4487-8c52-569706cee482",
         "f918ced3-829c-4bb8-a398-4856bce38b32",
         "d8b9187b-0a49-4a81-8418-6508a3aacf56",
+        "8129e7e7-c750-4687-812a-55be9dd22dcb",
         "cb831298-03a2-41e3-a91b-66375a48b0fb",
         "67bddafd-0d4b-4e66-a4af-ddcb772fe850",
         "05a9fc07-7ee8-49f3-abd0-1093f9e6210a",
