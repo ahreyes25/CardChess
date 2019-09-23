@@ -2,6 +2,9 @@
 
 var _unit_type = argument0;
 
+if (_unit_type == undefined)
+	return;
+
 unit_on_mouse = _unit_type;
 unit_selected = undefined;
 

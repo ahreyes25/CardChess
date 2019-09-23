@@ -989,6 +989,25 @@
             }
         },
         {
+            "Key": "5cc800ae-3103-4f3a-8cd5-70e65cc5f0e6",
+            "Value": {
+                "id": "04e06c83-4f96-4c64-8313-abc11124b35c",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/5cc800ae-3103-4f3a-8cd5-70e65cc5f0e6.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "5d70ccb7-ba50-4596-93c9-13094150dc10",
             "Value": {
                 "id": "fe1fdad4-6e49-4d56-8645-ab04e4c5ccb0",
@@ -2627,9 +2646,9 @@
         "403efbdb-05cd-4f4d-9157-20e8f7cbaee6",
         "28e9794b-18a6-4b8b-ad5d-d4043c58f30c",
         "1fc35a8e-1fb1-4774-8a91-bd24a2507c24",
-        "4570396a-fd2d-4a2a-ad69-80dcd4439c66",
         "792c98b6-8ebd-4663-afb8-62735130a47d",
         "57f15658-d6db-449b-bd53-943cbd869b35",
+        "4570396a-fd2d-4a2a-ad69-80dcd4439c66",
         "d263d4a4-3250-4634-ad55-8a3e983559da",
         "41e92eea-0b33-457a-b704-316e4707e6b4",
         "88400867-6e9c-48df-a67f-c33bdba1676d",

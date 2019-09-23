@@ -1,7 +1,4 @@
-- spawn zones not showing?
-- player remote discard list
-- remote player hand rotation
-- remote player action q?
+- remote player 
 - actually have remote player deck and hand be real card ids for potential weird card effects in the future
 - update networked hand and deck sizes 
 - units cannot move through other existing units
@@ -22,3 +19,10 @@
 - end buttons
 - cursor
 - hand icons
+- sounds
+- music packs
+
+-----------------
+----- MUSIC -----
+-----------------
+[ ] Mark #1160
