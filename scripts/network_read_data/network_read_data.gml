@@ -63,4 +63,9 @@ switch (buffer_read(_buffer, buffer_u8)) {
 	case DATA.UNIT_DESTROY:
 		network_unit_destroy_read(_buffer);
 	break;
+	
+	// End Turn
+	case DATA.TURN_END:
+		turn_end();
+	break;
 }

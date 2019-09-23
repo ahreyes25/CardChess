@@ -14,7 +14,8 @@
         "c2e2d8d2-9b3e-46e3-ada7-e8950d74263d",
         "254b302d-bdd3-4231-aaf2-45642eb916eb",
         "03613c7b-65ea-41ea-b40a-2e817ce1f874",
-        "5a511270-b153-47e0-b86a-3289f625a039"
+        "5a511270-b153-47e0-b86a-3289f625a039",
+        "a9933c08-3717-495f-9a48-cc1023ead6f1"
     ],
     "filterType": "GMScript",
     "folderName": "Network Scripts",
