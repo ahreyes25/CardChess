@@ -1,13 +1,10 @@
 enum CARD {
-	BACK, PAWN, KNIGHT, ROOK, BISHOP, QUEEN, KING
+	PAWN, KNIGHT, ROOK, BISHOP, QUEEN, KING
 }
 
 enum CP {
 	NAME, SPRITE, ACTIONS, INFO
 }
-
-// Enemy Card Back
-global.card_data[CARD.BACK, CP.SPRITE]		= spr_card_back;
 
 // Queen
 global.card_data[CARD.QUEEN, CP.NAME]		= "";

@@ -3,7 +3,7 @@ switch (ds_map_find_value(async_load, "type")) {
 	// Client Connect
 	case network_type_connect:
 		var _socket = ds_map_find_value(async_load, "socket");
-		ds_list_add(sockets, _socket);
+		sockets[| 0] = _socket;
 	
 		// Send Board Data to Player2
 		network_send_packet(sockets[| 0], global.buffer, buffer_tell(global.buffer));

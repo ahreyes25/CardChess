@@ -13,6 +13,7 @@ enum TEAM {
 
 enum DATA {
 	TEAM, BOARD_SIZE, UNIT_CREATE, UNIT_MOVE, UNIT_DESTROY, TURN_END,
+	DECK
 }
 #endregion
 

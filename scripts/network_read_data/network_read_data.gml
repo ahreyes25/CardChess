@@ -19,8 +19,8 @@ switch (buffer_read(_buffer, buffer_u8)) {
 			
 		// Create Server 
 		if (is_host && server == undefined) {
-			network_destroy(socket);
-			socket = undefined;
+			network_destroy(sockets[| 0]);
+			sockets[| 0] = undefined;
 			server = network_create_server(network_socket_tcp, 50001, 1);
 			buffer_seek(global.buffer, buffer_seek_start, 0);
 			buffer_write(global.buffer, buffer_u8, DATA.BOARD_SIZE);
@@ -29,9 +29,9 @@ switch (buffer_read(_buffer, buffer_u8)) {
 		}
 		// Connect to New Player Server
 		else if (!is_host) {
-			network_destroy(socket);
-			socket = network_create_socket(network_socket_tcp);
-			is_connected = network_connect(socket, ip, 50001);
+			network_destroy(sockets[| 0]);
+			sockets[| 0] = network_create_socket(network_socket_tcp);
+			is_connected = network_connect(sockets[| 0], ip, 50001);
 		}
 	break;
 	#endregion

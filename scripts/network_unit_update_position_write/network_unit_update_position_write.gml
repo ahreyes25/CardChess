@@ -14,8 +14,4 @@ buffer_write(global.buffer, buffer_u8, _u_old);
 buffer_write(global.buffer, buffer_u8, _v_old);
 buffer_write(global.buffer, buffer_u8, _u_new);
 buffer_write(global.buffer, buffer_u8, _v_new);
-
-if (obj_player_remote.is_host)
-	network_send_packet(obj_player_remote.sockets[| 0], global.buffer, buffer_tell(global.buffer));
-else
-	network_send_packet(obj_player_remote.socket, global.buffer, buffer_tell(global.buffer));
+network_send_packet(obj_player_remote.sockets[| 0], global.buffer, buffer_tell(global.buffer));
