@@ -5,7 +5,6 @@ var _unit_type = argument0;
 unit_on_mouse = _unit_type;
 unit_selected = undefined;
 
-// Place King
 if (mouse_check_button_pressed(mb_left)) {
 	
 	var _board_coords = world_to_board(mouse_x, mouse_y, board);
@@ -18,19 +17,22 @@ if (mouse_check_button_pressed(mb_left)) {
 		// Check That Space Is Withing Spawn Zone
 		if (_v < board.grid_height && _v >= board.grid_height - spawn_size) {
 					
-				unit_on_mouse = undefined;
+			unit_on_mouse = undefined;
 		
-				var _world_coords = board_to_world(_u, _v, true);
-				var _unit = unit_create(_unit_type, team, _world_coords[_.X], _world_coords[_.Y], board, id);
-				ds_list_add(units, _unit);
+			var _world_coords = board_to_world(_u, _v, true);
+			var _unit = unit_create(_unit_type, team, _world_coords[_.X], _world_coords[_.Y], board, id);
+			ds_list_add(units, _unit);
 		
-				if (team_get_current() == team)
-					state = player_state_idle;
-				else
-					state = player_state_wait;		
+			if (team_get_current() == team)
+				state = player_state_idle;
+			else
+				state = player_state_wait;		
 				
-				player_action_start_next();
-				network_unit_create_write(_unit_type, _u, _v);
+			player_action_start_next();
+			network_unit_create_write(_unit_type, _u, _v);
+				
+			if (_unit_type == UNIT.KING)
+				has_king = true;
 		}
 	}
 }

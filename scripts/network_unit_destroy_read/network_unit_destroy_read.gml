@@ -10,4 +10,7 @@ var _unit	= board_space_get_unit(board, _u, _v_f);
 if (instance_exists(obj_player_local) && ds_exists(obj_player_local.units, ds_type_list))
 	ds_list_delete(obj_player_local.units, ds_list_find_index(obj_player_local.units, _unit));
 
+if (_unit.unit_type == UNIT.KING)
+	_unit.player.has_king = false;
+
 instance_destroy(_unit);

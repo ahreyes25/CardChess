@@ -172,25 +172,6 @@
             }
         },
         {
-            "Key": "6d5a59fd-1d5e-4d21-b197-861e874b65a2",
-            "Value": {
-                "id": "e089cc11-280a-47cd-8be9-96f3ed12fdcb",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "scripts\/global_game_data\/global_game_data.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "6da55a80-b6a6-43fc-b798-23a4f31bb5a4",
             "Value": {
                 "id": "e94ecada-b265-45d6-a29e-b8e15136cc2a",
@@ -553,7 +534,7 @@
         }
     ],
     "script_order": [
-        "6d5a59fd-1d5e-4d21-b197-861e874b65a2"
+        
     ],
     "tutorial": ""
 }

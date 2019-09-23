@@ -32,3 +32,4 @@ unit_on_mouse	= undefined;	// snapped to mouse
 card_on_mouse	= undefined;	// snapped to mouse
 unit_touching	= undefined;	// mouse touching unit on board
 unit_selected	= undefined;	// unit clicked on and selected
+has_king		= false;

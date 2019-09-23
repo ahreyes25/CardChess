@@ -22,9 +22,9 @@ else {
 if (
 	mouse_touching() && mouse_check_button(mb_left) && 
 	player.unit_on_mouse == undefined && player.card_on_mouse == undefined &&
-	team_get_current() == player.team
+	team_get_current() == player.team &&
+	(obj_player_local.has_king && obj_player_remote.has_king)
 ) {
-	
 		state = card_state_on_mouse;	
 		player.card_on_mouse = id;
 }

@@ -9,3 +9,6 @@ var _v_f		= abs((board.grid_height - 1) - _v);
 
 var _world_coords = board_to_world(_u, _v_f, true);
 unit_create(_unit_type, team, _world_coords[_.X], _world_coords[_.Y], board, id);
+
+if (_unit_type == UNIT.KING)
+	obj_player_remote.has_king = true;
