@@ -8,7 +8,7 @@ switch (ds_map_find_value(async_load, "type")) {
 		// Make First Connection White Team
 		if (!assigned_host) {
 			buffer_seek(buffer, buffer_seek_start, 0);
-			buffer_write(buffer, buffer_u8, DATA.TEAM);
+			buffer_write(buffer, buffer_u8, DATA.TEAMS_STARTING);
 			buffer_write(buffer, buffer_u8, TEAM.WHITE);
 			network_send_packet(sockets[| 0], buffer, buffer_tell(buffer));
 			
@@ -18,7 +18,7 @@ switch (ds_map_find_value(async_load, "type")) {
 		// Make Second Connection Blue Team
 		else {
 			buffer_seek(buffer, buffer_seek_start, 0);
-			buffer_write(buffer, buffer_u8, DATA.TEAM);
+			buffer_write(buffer, buffer_u8, DATA.TEAMS_STARTING);
 			buffer_write(buffer, buffer_u8, TEAM.BLUE);
 			network_send_packet(sockets[| 0], buffer, buffer_tell(buffer));
 			
@@ -37,6 +37,5 @@ switch (ds_map_find_value(async_load, "type")) {
 		var _buffer = ds_map_find_value(async_load, "buffer");
 		var _socket	= ds_map_find_value(async_load, "socket");
 		buffer_seek(_buffer, buffer_seek_start, 0);
-	break;
-	
+		break;
 }

@@ -11,9 +11,12 @@ enum TEAM {
 	WHITE, BLUE	
 }
 
+// Networking Data Tags
 enum DATA {
-	TEAM, BOARD_SIZE, UNIT_CREATE, UNIT_MOVE, UNIT_DESTROY, TURN_END,
-	DECK
+	TEAMS_STARTING, CONNECT,
+	BOARD_SIZE,
+	UNIT_CREATE, UNIT_MOVE, UNIT_DESTROY, TURN_END,
+	DECK_UPDATE, DRAW
 }
 #endregion
 
@@ -25,7 +28,7 @@ global.save_objects			= [obj_game_controller, obj_turn_controller, obj_board, ob
 // Game Properties
 global.starting_hand_size	= 3;
 global.starting_hand_limit	= 7;
-global.deck_limit			= 30;
+global.deck_limit			= 10;
 global.default_spawn_size	= 2;
 global.teams				= [TEAM.WHITE, TEAM.BLUE];
 global.number_of_cards		= array_height_2d(global.card_data);

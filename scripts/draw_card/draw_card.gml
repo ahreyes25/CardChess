@@ -42,6 +42,10 @@ if (_player_from.deck_size > 0) {
 	// Send Card To Discard If No Space In Hand
 	else
 		ds_list_add(_player_from.discard, _card_id);
+		
+	// Update Remote Card Draw
+	if (_player_to.object_index != obj_player_remote)
+		network_card_draw_write();
 }
 #endregion
 

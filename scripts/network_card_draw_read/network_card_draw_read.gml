@@ -1,0 +1,1 @@
+draw_card(obj_player_remote);

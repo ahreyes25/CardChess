@@ -3,7 +3,7 @@ enum TEAM {
 }
 
 enum DATA {
-	TEAM,
+	TEAMS_STARTING,
 }
 
 buffer			= buffer_create(10, buffer_fixed, 1);

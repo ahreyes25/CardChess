@@ -9,7 +9,7 @@ unit_on_mouse = _unit_type;
 unit_selected = undefined;
 
 // Host Player Cannot Place King Until Opponent Has Joined
-if (_unit_type == UNIT.KING && obj_player_remote.is_host && ds_list_size(obj_player_remote.sockets) <= 0)
+if (_unit_type == UNIT.KING && obj_player_remote.is_host && !obj_player_remote.is_connected)
 	return;
 
 if (mouse_check_button_pressed(mb_left)) {
