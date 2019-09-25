@@ -10,13 +10,12 @@ if (player.object_index == obj_player_local) {
 	}
 	// Mouse Not Touching
 	else {
-		card_hand_center();
-		card_hand_rotate();
-		card_hand_scale();	
 		image_xscale = 1;
 		image_yscale = 1;
 		depth = player.depth;
 		y = player.hand_y;
+		card_hand_center();
+		card_hand_scale();	
 	}	
 
 	// Snap To Mouse
@@ -31,8 +30,7 @@ if (player.object_index == obj_player_local) {
 	}
 }
 else {
-	card_hand_center();
-	card_hand_rotate();
-	card_hand_scale();	
 	y = player.hand_y;
+	card_hand_center();
+	card_hand_scale();	
 }

@@ -8,7 +8,6 @@
 
 - update network on universal unit destroy 
 - give units life and duration
-- show game state information
 - show unit info on hover
 - interactive board elements, pressure plate to lift bridge
 
