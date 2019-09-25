@@ -1,10 +1,5 @@
 draw_set_color(c_black);
 
-if (instance_exists(obj_turn_controller)) {
-	draw_text(10, 25, "Turn Count: " + string(floor(obj_turn_controller.turn_count)));	
-	//draw_text(10, 40, "Team Current: " + string(team_get_current()));	
-}
-
 //if (state != undefined)
 //	draw_text(10, 55, "Game: " + string(script_get_name(state)));
 	

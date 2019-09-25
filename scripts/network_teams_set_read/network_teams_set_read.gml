@@ -16,6 +16,7 @@ if (is_host && server == undefined) {
 	network_destroy(sockets[| 0]);
 	ds_list_delete(sockets, 0);
 	server = network_create_server(network_socket_tcp, 50001, 1);
+	banner_create("Waiting For Players...");
 }
 // Connect to New Player Server
 else if (!is_host) {

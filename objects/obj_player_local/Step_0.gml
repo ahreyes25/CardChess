@@ -1,6 +1,6 @@
 event_inherited();
 
-// Touching Unit
+#region Touching Unit
 var _board_coords	= world_to_board(mouse_x, mouse_y, board);
 var _mouse_u		= _board_coords[_.X];
 var _mouse_v		= _board_coords[_.Y];
@@ -22,3 +22,20 @@ if (in_bounds(board.grid, _mouse_u, _mouse_v)) {
 }
 else
 	unit_touching = undefined;
+#endregion
+	
+#region Alert Actions
+if (alert_unit_actions && alarm[1] == -1)
+	alarm[1] = 120;	
+else if (alarm[1] mod 10 == 0)
+	draw_unit_alert = !draw_unit_alert;
+else if (!alert_unit_actions && alarm[1] == -1)
+	draw_unit_alert = true;
+	
+if (alert_card_actions && alarm[2] == -1)
+	alarm[2] = 120;	
+else if (alarm[2] mod 10 == 0)
+	draw_card_alert = !draw_card_alert;
+else if (!alert_card_actions && alarm[2] == -1)
+	draw_card_alert = true;
+#endregion

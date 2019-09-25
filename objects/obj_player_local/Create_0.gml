@@ -8,6 +8,11 @@ card_on_mouse	= undefined;	// snapped to mouse
 unit_touching	= undefined;	// mouse touching unit on board
 unit_selected	= undefined;	// unit clicked on and selected
 
+alert_unit_actions	= false;
+alert_card_actions	= false;
+draw_unit_alert		= true;
+draw_card_alert		= true;
+
 deck_x			= x + 150;
 deck_y			= y - 15;
 hand_x			= x;

@@ -6,6 +6,8 @@
 - keep track of obj_player_remote's units in list associated to obj_player_remote
 - allow host to reset and send level reset to remote player
 
+- update network on universal unit destroy 
+- give units life and duration
 - show game state information
 - show unit info on hover
 - interactive board elements, pressure plate to lift bridge

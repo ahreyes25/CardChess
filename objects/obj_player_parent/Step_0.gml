@@ -1,7 +1,7 @@
 if (state == undefined)
 	return;
 
-// Execute State
+#region Execute State
 switch (state) {
 	case player_state_place_unit:
 		script_execute(state, unit_on_mouse);
@@ -11,8 +11,9 @@ switch (state) {
 		script_execute(state);
 		break;
 }
+#endregion
 
-// Action Q
+#region Action Q
 if (actions != undefined && execute_action) {
 	
 	execute_action = false;
@@ -28,3 +29,4 @@ if (actions != undefined && execute_action) {
 			script_execute(_action);
 	}
 }
+#endregion
