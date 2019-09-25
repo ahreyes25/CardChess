@@ -2319,6 +2319,25 @@
             }
         },
         {
+            "Key": "ca36960e-5130-4062-8010-be2997dd7a80",
+            "Value": {
+                "id": "3588665b-8956-486e-9e80-ae39cf11537f",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/board_distance\/board_distance.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cb831298-03a2-41e3-a91b-66375a48b0fb",
             "Value": {
                 "id": "71706927-2a58-43b1-9e28-046ea6148419",
@@ -2972,7 +2991,8 @@
         "9ed1355c-7364-49bd-90f0-6f0e231a7c99",
         "869334ee-6a40-4709-83c3-b157ab32556f",
         "dfcfc742-3e76-4376-aae2-e5b79eb4893f",
-        "65df2e5d-6fe7-4d3c-9ba4-3b7c46f11b06"
+        "65df2e5d-6fe7-4d3c-9ba4-3b7c46f11b06",
+        "ca36960e-5130-4062-8010-be2997dd7a80"
     ],
     "tutorial": ""
 }

@@ -32,8 +32,6 @@ _unit_instance.image_speed		= 0;
 _unit_instance.state			= _state;
 _unit_instance.board			= _board;
 _unit_instance.player			= _player;
-_unit_instance.move_config		= unit_get_move_config(_unit_instance);
-_unit_instance.attack_config	= unit_get_attack_config(_unit_instance);
 _unit_instance.target_x			= _x;
 _unit_instance.target_y			= _y;
 

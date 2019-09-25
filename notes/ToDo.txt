@@ -1,9 +1,7 @@
 -----------------
 ----- To DO -----
 -----------------
-- units cannot move through other existing units
 - remove board connection, make one global board
-- remove if instance_exists obj_game_controller
 - replace all direct references to controllers to references through game_controller
 - keep track of obj_player_remote's units in list associated to obj_player_remote
 - allow host to reset and send level reset to remote player

@@ -12,6 +12,8 @@ board_v		= undefined;
 state		= unit_state_idle;
 moved		= false;
 attacked	= false;
+	
+can_move_through_units	= false;
 
 // Non-Serialized Data
 alpha			= 1;
@@ -23,3 +25,4 @@ attack_config	= [];
 move_speed		= 10;
 target_x		= undefined;
 target_y		= undefined;
+updated_configs	= false;
