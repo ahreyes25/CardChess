@@ -16,6 +16,7 @@ if (!mouse_check_button(mb_left)) {
 		
 		card_activate(card_id, player);
 		instance_destroy();
+		network_hand_update_write();
 	}
 	// Let Go Of Card In Card Zone
 	else

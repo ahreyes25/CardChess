@@ -2034,6 +2034,25 @@
             }
         },
         {
+            "Key": "a6bd760b-16af-4fbb-9409-7335c79142b0",
+            "Value": {
+                "id": "d0f26f62-5729-49f0-95d5-dd222ff634a5",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/network_hand_update_read\/network_hand_update_read.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a750caff-ee36-4fd7-ac38-d4a1129732ba",
             "Value": {
                 "id": "90ea9cff-37ac-45d4-95f5-052395806fdf",
@@ -2509,6 +2528,25 @@
             }
         },
         {
+            "Key": "dea569b5-7838-4925-ad04-575f1bc9affd",
+            "Value": {
+                "id": "2d2d1baf-0ed9-4850-956c-3d75fa9c3aba",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/network_hand_update_write\/network_hand_update_write.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "dfcfc742-3e76-4376-aae2-e5b79eb4893f",
             "Value": {
                 "id": "5c083c1d-9241-49dd-9eb8-b9dd83dd9013",
@@ -2893,6 +2931,8 @@
         "45067e67-95f3-4921-acf4-a56ff5a2eb66",
         "4e845dd1-2181-4c01-b0b6-3bfaffac2bdd",
         "168a42bd-f8a1-4155-be93-9de51237c9f6",
+        "dea569b5-7838-4925-ad04-575f1bc9affd",
+        "a6bd760b-16af-4fbb-9409-7335c79142b0",
         "51f38d7c-76bd-4d51-ad57-004eed36af74",
         "5c2bfd70-bcc7-4197-af18-d934176a8c0e",
         "76fdfbb2-470f-41c9-9a7d-93dcc4f4baef",

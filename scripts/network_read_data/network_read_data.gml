@@ -49,4 +49,9 @@ switch (buffer_read(_buffer, buffer_u8)) {
 	case DATA.DRAW:
 		network_card_draw_read();
 		break;
+		
+	// Update Remote Hand
+	case DATA.HAND_UPDATE:
+		network_hand_update_read(_buffer);
+		break;
 }
