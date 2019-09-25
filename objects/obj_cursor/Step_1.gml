@@ -1,2 +1,2 @@
-if (initiated(obj_game_controller.board))
-	depth = obj_game_controller.board.depth - 1;
+if (initiated(obj_board))
+	depth = obj_board.depth - 1;

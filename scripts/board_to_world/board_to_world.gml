@@ -10,8 +10,6 @@ if (argument_count == 3)
 else
 	var _center = false;
 
-if (!instance_exists(obj_board)) return;
-
 if (_center) {
 	return [
 		obj_board.x + (_u * obj_board.space_width)  + (obj_board.space_width  * 0.50),

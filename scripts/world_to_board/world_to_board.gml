@@ -10,8 +10,6 @@ if (argument_count == 3)
 else
 	var _board = obj_board;
 
-if (!instance_exists(_board)) return;
-
 return [
 	floor((_x - _board.x) / _board.space_width),
 	floor((_y - _board.y) / _board.space_height),

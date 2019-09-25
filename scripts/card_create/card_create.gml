@@ -17,8 +17,6 @@ else {
 }
 #endregion
 
-if (!instance_exists(_player)) return undefined;
-
 var _card			= instance_create_layer(_x, _y, "Hands", obj_card);
 _card.card_id		= _card_id;
 _card.sprite_index	= global.card_data[_card_id, CP.SPRITE];

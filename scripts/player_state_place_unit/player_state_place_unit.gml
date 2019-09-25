@@ -1,12 +1,8 @@
 /// @param unit_enum
 
-var _unit_type = argument0;
-
-if (_unit_type == undefined)
-	return;
-
-unit_on_mouse = _unit_type;
-unit_selected = undefined;
+var _unit_type	= argument0;
+unit_on_mouse	= _unit_type;
+unit_selected	= undefined;
 
 // Host Player Cannot Place King Until Opponent Has Joined
 if (_unit_type == UNIT.KING && obj_player_remote.is_host && !obj_player_remote.is_connected)

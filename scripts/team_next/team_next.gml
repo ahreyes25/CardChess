@@ -1,8 +1,6 @@
-if (!initiated(obj_game_controller.turn_controller)) return;
+obj_turn_controller.team_index++;
 
-obj_game_controller.turn_controller.team_index++;
+if (obj_turn_controller.team_index > array_length_1d(global.teams) - 1)
+	obj_turn_controller.team_index = 0;
 
-if (obj_game_controller.turn_controller.team_index > array_length_1d(global.teams) - 1)
-	obj_game_controller.turn_controller.team_index = 0;
-
-obj_game_controller.turn_controller.team_current = global.teams[obj_game_controller.turn_controller.team_index];
+obj_turn_controller.team_current = global.teams[obj_turn_controller.team_index];

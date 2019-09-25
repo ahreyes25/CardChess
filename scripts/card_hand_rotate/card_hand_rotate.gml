@@ -17,7 +17,8 @@ if (abs(_opposite) > 25) {
 	_card.y = _card.player.hand_y + (_dist * _rotated_y_offset);
 
 	var adjacent = abs(_card.player.hand_y - _card.y);
-	_card.image_angle = arctan(_opposite / adjacent) * _rot_factor * _dist;
+	_card.image_angle = (arctan(_opposite / adjacent) * _rot_factor * _dist) + (180 * (y < room_height / 2));
+	
 }
 else {
 	_card.image_angle = 0;

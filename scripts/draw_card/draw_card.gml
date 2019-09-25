@@ -1,5 +1,6 @@
 /// @param player_from*
 /// @param player_to*
+
 #region Arguments
 if (argument_count == 2) {
 	var _player_from	= argument[0];
@@ -13,12 +14,6 @@ else {
 	var _player_from	= id;
 	var _player_to		= id;	
 }
-#endregion
-#region Exit Conditions
-if (!instance_exists(_player_from)) return undefined;
-if (!instance_exists(_player_to))	return undefined;
-if (_player_from.deck != undefined && !ds_exists(_player_from.deck, ds_type_list)) return undefined;
-if (_player_to.hand != undefined && !ds_exists(_player_to.hand, ds_type_list)) return undefined;
 #endregion
 
 #region Draw Card And Place In Correct Spot

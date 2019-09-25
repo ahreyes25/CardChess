@@ -25,8 +25,6 @@ else {
 }
 #endregion
 
-if (!instance_exists(_card)) return;
-
 var _new_scale		= 1 - ((_card.player.hand_size - 1) / _card.player.hand_limit) + 0.1;
 _card.image_xscale	= clamp(_new_scale, _min_scale, _max_scale);
 _card.image_yscale	= clamp(_new_scale, _min_scale, _max_scale);

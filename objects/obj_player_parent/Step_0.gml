@@ -1,4 +1,5 @@
-if (state == undefined) return;	// Check That State Is Defined
+if (state == undefined)
+	return;
 
 // Execute State
 switch (state) {

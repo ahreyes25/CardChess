@@ -1,5 +1,3 @@
-if (!initiated(obj_game_controller.turn_controller)) return;
-
 team_next();
 turn_count_add(0.5);
 

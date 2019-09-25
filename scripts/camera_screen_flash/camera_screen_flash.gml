@@ -2,12 +2,6 @@
 /// @param flash_color*
 /// @param flash_decay*
 
-#region Exit Conditions
-if (!instance_exists(obj_game_controller)) return;
-if (obj_game_controller.camera == undefined) return;
-if (!instance_exists(obj_game_controller.camera)) return;
-#endregion
-
 #region Arguments
 if (argument_count >= 1)
 	var _alpha = argument[0];
@@ -25,6 +19,6 @@ else
 	var _decay = 0.1;
 #endregion
 
-obj_game_controller.camera.flash_alpha = _alpha * global.screen_flash_mult;
-obj_game_controller.camera.flash_color = _color;
-obj_game_controller.camera.flash_decay = _decay;
+obj_camera.flash_alpha = _alpha * global.screen_flash_mult;
+obj_camera.flash_color = _color;
+obj_camera.flash_decay = _decay;

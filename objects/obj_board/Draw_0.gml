@@ -18,10 +18,10 @@ draw_set_color(c_white);
 #endregion
 
 #region Draw Spawn Zones
-if (obj_game_controller.player_local.unit_on_mouse != undefined) {
+if (obj_player_local.unit_on_mouse != undefined) {
 	for (var i = 0; i < grid_width; i++) {
 		for (var j = grid_height - 1; j >= 0; j--) {
-			if (j >= grid_height - obj_game_controller.player_local.spawn_size && grid[# i, j] == 0)
+			if (j >= grid_height - obj_player_local.spawn_size && grid[# i, j] == 0)
 				draw_sprite_ext(spr_valid, 0, x + (i * space_width), y + (j * space_height), 1, 1, 0, c_white, 0.5);
 			else
 				draw_sprite_ext(spr_invalid, 0, x + (i * space_width), y + (j * space_height), 1, 1, 0, c_white, 0.5);
@@ -31,9 +31,9 @@ if (obj_game_controller.player_local.unit_on_mouse != undefined) {
 #endregion
 
 #region Draw Selected Unit Movement
-if (obj_game_controller.player_local.unit_selected != undefined && obj_game_controller.player_local.unit_selected.show_move) {
+if (obj_player_local.unit_selected != undefined && obj_player_local.unit_selected.show_move) {
 	
-	with (obj_game_controller.player_local.unit_selected) {
+	with (obj_player_local.unit_selected) {
 		for (var i = 0; i < array_length_1d(move_config); i++) {
 			var _move_points = move_config[i];
 			var _u = _move_points[_.X];
@@ -51,9 +51,9 @@ if (obj_game_controller.player_local.unit_selected != undefined && obj_game_cont
 #endregion
 
 #region Draw Selected Unit Attack
-if (obj_game_controller.player_local.unit_selected != undefined && obj_game_controller.player_local.unit_selected.show_attack) {
+if (obj_player_local.unit_selected != undefined && obj_player_local.unit_selected.show_attack) {
 	
-	with (obj_game_controller.player_local.unit_selected) {
+	with (obj_player_local.unit_selected) {
 		for (var i = 0; i < array_length_1d(attack_config); i++) {
 			var _attack_points = attack_config[i];
 			var _u = _attack_points[_.X];

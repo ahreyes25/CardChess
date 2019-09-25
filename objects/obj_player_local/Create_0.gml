@@ -13,5 +13,6 @@ deck_y			= y - 15;
 hand_x			= x;
 hand_y			= y - 40;
 
+// Give Random Deck
 repeat (deck_size)
 	ds_list_add(deck, irandom(global.number_of_cards - 1));
