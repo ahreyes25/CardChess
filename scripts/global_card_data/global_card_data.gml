@@ -27,7 +27,7 @@ global.card_data[CARD.ROOK, CP.INFO]		= "Spawn 1 Rook Unit. Draw 1 Card.";
 // Knight
 global.card_data[CARD.KNIGHT, CP.NAME]		= "";
 global.card_data[CARD.KNIGHT, CP.SPRITE]	= spr_card_knight;
-global.card_data[CARD.KNIGHT, CP.ACTIONS]	= [[spawn_unit, UNIT.KNIGHT], draw_card];
+global.card_data[CARD.KNIGHT, CP.ACTIONS]	= [[spawn_unit, UNIT.KNIGHT], [spawn_unit, UNIT.KNIGHT], [spawn_unit, UNIT.KNIGHT]];
 global.card_data[CARD.KNIGHT, CP.INFO]		= "Spawn 1 Knight Unit. Draw 1 Card.";
 
 // Pawn

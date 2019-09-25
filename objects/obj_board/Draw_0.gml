@@ -34,17 +34,19 @@ if (obj_player_local.unit_on_mouse != undefined) {
 if (obj_player_local.unit_selected != undefined && obj_player_local.unit_selected.show_move) {
 	
 	with (obj_player_local.unit_selected) {
-		for (var i = 0; i < array_length_1d(move_config); i++) {
-			var _move_points = move_config[i];
-			var _u = _move_points[_.X];
-			var _v = _move_points[_.Y];
+		if (updated_configs) {
+			for (var i = 0; i < array_length_1d(move_config); i++) {
+				var _move_points = move_config[i];
+				var _u = _move_points[_.X];
+				var _v = _move_points[_.Y];
 		
-			if (in_bounds(board.grid, board_u + _u, board_v + _v)) {
-				var _world_coords = board_to_world(board_u + _u, board_v + _v, false);
-				var _x = _world_coords[_.X];
-				var _y = _world_coords[_.Y];
-				draw_sprite_ext(spr_valid, 0, _x, _y, 1, 1, 0, c_white, 0.75);
-			}	
+				if (in_bounds(board.grid, board_u + _u, board_v + _v)) {
+					var _world_coords = board_to_world(board_u + _u, board_v + _v, false);
+					var _x = _world_coords[_.X];
+					var _y = _world_coords[_.Y];
+					draw_sprite_ext(spr_valid, 0, _x, _y, 1, 1, 0, c_white, 0.75);
+				}	
+			}
 		}
 	}
 }

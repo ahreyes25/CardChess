@@ -1,14 +1,14 @@
 -----------------
 ----- To DO -----
 -----------------
+- register user, encrypt data, and save in DB
 - remove board connection, make one global board
-- replace all direct references to controllers to references through game_controller
 - keep track of obj_player_remote's units in list associated to obj_player_remote
 - allow host to reset and send level reset to remote player
+
+- show game state information
 - show unit info on hover
 - interactive board elements, pressure plate to lift bridge
-
-- register user, encrypt data, and save in DB
 
 -----------------
 -- UNLOCKABLES --
