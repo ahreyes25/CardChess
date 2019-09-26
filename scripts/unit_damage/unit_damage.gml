@@ -9,3 +9,4 @@ else
 var _damage	= argument1;
 
 _unit.life -= _damage;
+_unit.state = unit_state_hurt;

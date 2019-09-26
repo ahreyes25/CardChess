@@ -7,3 +7,7 @@ else if (obj_player_local.unit_selected != undefined && obj_player_local.unit_se
 	alpha = 1.0;
 else
 	alpha = 0.5;
+	
+// Flash Red
+if (alarm[0] > -1 && alarm[0] mod 10 == 0)
+	flash_red = !flash_red;

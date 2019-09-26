@@ -1,13 +1,14 @@
 -----------------
 ----- To DO -----
 -----------------
-- unit hurt state
 - make sure explosion is damaging unit
 - dealing enough damage to a unit destroys it (network too)
 - send explosions to remote player
 - show unit info on hover
+- sounds
 - interactive board elements, pressure plate to lift bridge, etc
 
+- deck building
 - register user, encrypt data, and save in DB
 - remove board connection, make one global board
 - keep track of obj_player_remote's units in list associated to obj_player_remote

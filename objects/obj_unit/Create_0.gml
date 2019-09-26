@@ -26,3 +26,5 @@ move_speed		= 10;
 target_x		= undefined;
 target_y		= undefined;
 updated_configs	= false;
+
+flash_red		= false;

@@ -1,5 +1,5 @@
 damage				= undefined;
-screen_shake		= 2;
+screen_shake		= 5;
 delay				= undefined;
 image_speed_base	= 1.5;
 board_u				= undefined;
