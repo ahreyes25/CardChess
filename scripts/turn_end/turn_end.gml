@@ -6,5 +6,5 @@ if (obj_player_local.team != team_get_current())
 	obj_player_local.state = player_state_wait;	
 else {
 	obj_player_local.state			= player_state_idle;
-	draw_card(obj_player_local);
+	card_draw(obj_player_local);
 }

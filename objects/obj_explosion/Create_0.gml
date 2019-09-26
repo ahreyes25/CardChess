@@ -2,6 +2,9 @@ damage				= undefined;
 screen_shake		= 2;
 delay				= undefined;
 image_speed_base	= 1.5;
+board_u				= undefined;
+board_v				= undefined;
+
 sprite_index		= spr_explosion;
 image_index			= 0.0;
 image_speed			= 1.0;

@@ -1,8 +1,8 @@
 {
-    "id": "ab63fe88-1d00-4ba8-9421-a94290182f35",
+    "id": "c14ff32b-6cb9-4c32-90a2-49a5681c73b3",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "bombard_unit",
+    "name": "unit_damage",
     "IsCompatibility": false,
     "IsDnD": false
 }

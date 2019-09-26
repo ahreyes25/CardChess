@@ -1,2 +1,2 @@
-if (initiated(obj_board))
+if (exists(obj_board))
 	depth = obj_board.depth - 1;

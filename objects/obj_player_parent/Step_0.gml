@@ -21,9 +21,21 @@ if (actions != undefined && execute_action) {
 	
 	if (_action != undefined) {
 		if (is_array(_action)) {
-			var _script		= _action[0];	
-			var _argument	= _action[1];
-			script_execute(_script, _argument);
+			switch (array_length_1d(_action)) {
+				
+				case 2:
+					var _script		= _action[0];	
+					var _argument	= _action[1];
+					script_execute(_script, _argument);
+					break;
+					
+				case 3:
+					var _script		= _action[0];	
+					var _argument1	= _action[1];
+					var _argument2	= _action[2];
+					script_execute(_script, _argument1, _argument2);
+					break;
+			}
 		}
 		else
 			script_execute(_action);

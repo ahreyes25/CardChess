@@ -5,13 +5,13 @@ unit_type	= undefined;
 team		= undefined;
 player		= undefined;
 board		= undefined;
-attack		= undefined;
-life		= undefined;
 board_u		= undefined;
 board_v		= undefined;
 state		= unit_state_idle;
 moved		= false;
 attacked	= false;
+life_start	= undefined;
+life		= undefined;
 	
 can_move_through_units	= false;
 

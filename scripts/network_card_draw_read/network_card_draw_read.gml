@@ -1,1 +1,1 @@
-draw_card(obj_player_remote);
+card_draw(obj_player_remote);

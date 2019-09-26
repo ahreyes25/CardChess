@@ -1,8 +1,8 @@
 {
-    "id": "dfcfc742-3e76-4376-aae2-e5b79eb4893f",
+    "id": "28483a2a-a742-4661-8934-9c5498f8a0f1",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "initiated",
+    "name": "card_draw",
     "IsCompatibility": false,
     "IsDnD": false
 }

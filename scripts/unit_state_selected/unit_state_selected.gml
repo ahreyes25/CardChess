@@ -86,7 +86,7 @@ if (mouse_check_button_pressed(mb_left)) {
 						
 							// Destroy Local Unit
 							instance_destroy(_other_unit);
-						
+							
 							// Destroy Remote Unit
 							network_unit_destroy_write(_target_u, _target_v);
 					

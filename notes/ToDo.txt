@@ -1,11 +1,12 @@
 -----------------
 ----- To DO -----
 -----------------
-- update network on universal unit destroy 
+- unit hurt state
+- make sure explosion is damaging unit
+- dealing enough damage to a unit destroys it (network too)
 - send explosions to remote player
-- give units life and damage
 - show unit info on hover
-- interactive board elements, pressure plate to lift bridge
+- interactive board elements, pressure plate to lift bridge, etc
 
 - register user, encrypt data, and save in DB
 - remove board connection, make one global board

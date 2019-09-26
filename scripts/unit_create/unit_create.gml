@@ -25,6 +25,7 @@ var _unit_instance				= instance_create_layer(_spawn_x, _spawn_y, "Units", obj_u
 _unit_instance.unit_type		= _unit;
 _unit_instance.team				= _team;
 _unit_instance.attack			= global.unit_data[_unit, UP.ATTACK];
+_unit_instance.life_start		= global.unit_data[_unit, UP.LIFE];
 _unit_instance.life				= global.unit_data[_unit, UP.LIFE];
 _unit_instance.sprite_index		= global.unit_data[_unit, UP.SPRITE];
 _unit_instance.image_index		= _team;

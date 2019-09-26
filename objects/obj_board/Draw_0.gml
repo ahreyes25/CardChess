@@ -31,8 +31,7 @@ if (obj_player_local.unit_on_mouse != undefined) {
 #endregion
 
 #region Draw Selected Unit Movement
-if (obj_player_local.unit_selected != undefined && obj_player_local.unit_selected.show_move) {
-	
+if (exists(obj_player_local) && exists(obj_player_local.unit_selected) && obj_player_local.unit_selected.show_move) {
 	with (obj_player_local.unit_selected) {
 		if (updated_configs) {
 			for (var i = 0; i < array_length_1d(move_config); i++) {
@@ -53,7 +52,7 @@ if (obj_player_local.unit_selected != undefined && obj_player_local.unit_selecte
 #endregion
 
 #region Draw Selected Unit Attack
-if (obj_player_local.unit_selected != undefined && obj_player_local.unit_selected.show_attack) {
+if (exists(obj_player_local) && exists(obj_player_local.unit_selected) && obj_player_local.unit_selected.show_attack) {
 	
 	with (obj_player_local.unit_selected) {
 		for (var i = 0; i < array_length_1d(attack_config); i++) {

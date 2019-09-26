@@ -1,8 +1,8 @@
 {
-    "id": "28483a2a-a742-4661-8934-9c5498f8a0f1",
+    "id": "fed10d3f-4cd4-46e9-b482-3d9af116db90",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "draw_card",
+    "name": "unit_spawn",
     "IsCompatibility": false,
     "IsDnD": false
 }
