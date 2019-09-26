@@ -1,15 +1,16 @@
 -----------------
 ----- To DO -----
 -----------------
+- update network on universal unit destroy 
+- send explosions to remote player
+- give units life and damage
+- show unit info on hover
+- interactive board elements, pressure plate to lift bridge
+
 - register user, encrypt data, and save in DB
 - remove board connection, make one global board
 - keep track of obj_player_remote's units in list associated to obj_player_remote
 - allow host to reset and send level reset to remote player
-
-- update network on universal unit destroy 
-- give units life and duration
-- show unit info on hover
-- interactive board elements, pressure plate to lift bridge
 
 -----------------
 -- CARD IDEAS --

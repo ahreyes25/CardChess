@@ -18,4 +18,4 @@ var _actions = global.card_data[_card_id, CP.ACTIONS];
 for (var i = 0; i < array_length_1d(_actions); i++)
 	ds_queue_enqueue(_player.actions, _actions[i]);	
 
-player_action_start_next(_player);
+player_action_next(_player);

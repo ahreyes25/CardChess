@@ -1,8 +1,8 @@
 {
-    "id": "308a6c60-bc4c-4e58-9340-6968630bcd00",
+    "id": "bdb33112-1fcb-46b0-b90e-a119f8ee33ce",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "player_action_start_next",
+    "name": "player_state_select_unit_any",
     "IsCompatibility": false,
     "IsDnD": false
 }

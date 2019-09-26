@@ -45,6 +45,6 @@ if (_player_from.deck_size > 0) {
 #endregion
 
 // Progress Action Q If Defined
-player_action_start_next(_player_to);
+player_action_next(_player_to);
 
 return _card_id;

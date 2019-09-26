@@ -1,0 +1,1 @@
+obj_player_local.state = player_state_select_unit_any;

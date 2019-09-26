@@ -1,0 +1,9 @@
+damage				= undefined;
+screen_shake		= 2;
+delay				= undefined;
+image_speed_base	= 1.5;
+sprite_index		= spr_explosion;
+image_index			= 0.0;
+image_speed			= 1.0;
+image_xscale		= 0.5;
+image_yscale		= 0.5;
