@@ -6,14 +6,10 @@ image_yscale = 1;
 // Play Card
 if (!mouse_check_button(mb_left)) {
 	// Let Go Of Card In Play Zone
-	if (y < player.hand_y - sprite_height && player.cards_played < player.cards_can_play)
+	if (y < player.hand_y - sprite_height)
 		state = card_state_activate;
 		
 	// Let Go Of Card In Card Zone
-	else {
+	else
 		state = card_state_return_to_hand;
-		
-		if (player.cards_played >= player.cards_can_play)
-			player.alert_card_actions = true;
-	}
 }

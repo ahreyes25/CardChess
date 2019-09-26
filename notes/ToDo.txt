@@ -12,6 +12,11 @@
 - interactive board elements, pressure plate to lift bridge
 
 -----------------
+-- CARD IDEAS --
+-----------------
+- deal 1 damage to every nearby square
+
+-----------------
 -- UNLOCKABLES --
 -----------------
 - unit skins

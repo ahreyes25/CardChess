@@ -3,7 +3,6 @@ ds_list_add(player.discard, card_id);
 		
 player.hand_size--;
 player.card_on_mouse = undefined;
-player.cards_played++;
 		
 card_activate(card_id, player);
 instance_destroy();

@@ -19,10 +19,8 @@ deck_size		= global.deck_limit;
 execute_action	= false; 
 spawn_size		= global.default_spawn_size;
 
-units_can_move	= 1;
+units_can_move	= 1000;
 units_moved		= 0;
-cards_can_play	= 1;
-cards_played	= 0;
 
 // Non-Serialized Data
 has_king		= false;
