@@ -3250,6 +3250,25 @@
             }
         },
         {
+            "Key": "f5f33d39-a60a-48fb-a557-164764856805",
+            "Value": {
+                "id": "cda3d7ac-1ce5-4964-8a04-f0f8020d2956",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/sfx_explosion\/sfx_explosion.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "f918ced3-829c-4bb8-a398-4856bce38b32",
             "Value": {
                 "id": "fc2ec9e9-d40d-4ccc-b2ff-3977687245a0",

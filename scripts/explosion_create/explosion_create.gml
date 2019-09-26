@@ -26,5 +26,7 @@ if (_delay != undefined) {
 	_explosion.image_speed	= 0;
 	_explosion.visible		= false;
 }
-else 
+else {
 	camera_screen_shake(_explosion.screen_shake);
+	audio_play_sound(sfx_explosion, 0, 0);
+}
