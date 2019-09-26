@@ -17,7 +17,7 @@
 -----------------
 -- CARD IDEAS --
 -----------------
-- deal 1 damage to every nearby square
+- self destruct: sacrifice a unit and deal it's damage to every unit surrounding it
 
 -----------------
 -- UNLOCKABLES --

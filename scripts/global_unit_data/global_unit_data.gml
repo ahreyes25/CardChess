@@ -9,9 +9,9 @@ enum UP {
 }
 
 // King
-global.unit_data[UNIT.KING, UP.SPRITE]			= spr_king;
-global.unit_data[UNIT.KING, UP.LIFE]			= 1;
-global.unit_data[UNIT.KING, UP.ATTACK]			= 1;
+global.unit_data[UNIT.KING, UP.SPRITE]		= spr_king;
+global.unit_data[UNIT.KING, UP.LIFE]		= 1;
+global.unit_data[UNIT.KING, UP.ATTACK]		= 1;
 
 // Queen
 global.unit_data[UNIT.QUEEN, UP.SPRITE]		= spr_queen;

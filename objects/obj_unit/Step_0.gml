@@ -11,3 +11,9 @@ else
 // Flash Red
 if (alarm[0] > -1 && alarm[0] mod 10 == 0)
 	flash_red = !flash_red;
+	
+// Die If Health Reaches Zero
+if (life <= 0) {
+	network_unit_destroy_write(board_u, board_v);
+	instance_destroy();	
+}
